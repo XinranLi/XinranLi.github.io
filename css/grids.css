@@ -1,0 +1,26 @@
+.grid-240{
+	/*side*/
+	width:240px;
+}
+.grid-360{
+	/*middle-right*/
+	width:360px;
+}
+
+.grid-460{
+	/*side*/
+	width:460px;
+}
+.grid-520{
+	/*main*/
+    width:520px;	
+}
+
+.grid-640{
+	/*main*/
+	width:640px;
+}
+.grid-340{
+	/*side*/
+	width:340px;
+}
