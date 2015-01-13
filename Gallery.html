@@ -2,14 +2,160 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8" />
-<title>Gallery of Xinran Li's Work Collection'</title>
+<title>Photo Album of Xinran Li's Photography'</title>
 <link href="css/pure-min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/blue.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/grids.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/album.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
+<style>
+div.footer {
+    background-color: #70a19f;
+	text-align: center;
+	font-size: 3px;
+	color: #70a19f;
+}
+.right {
+    position: absolute;
+    right: 250px;
+    width: 800px;
+    background-color: #FFFFFF;
+	opacity:0.8;
+}
+.left{
+    position: absolute;
+    left: 130px;
+}
+.bottom{
+	left: 10px;
+	bottom: 10px;
+	font-size: 13px;
+	color: #70a19f;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+a.wordlink{
+  color:#006a80;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+  background: #fff;
+}
+
+.card-holder {  
+  position: fixed;
+  width: 0px;
+  overflow: visible;
+}
+
+.card-wrapper {
+  display: inline-block;
+  float: right;
+  clear: both;
+}
+
+.card {
+  position: relative;
+  left: 32px;
+  padding: 16px 32px 16px 64px;
+  margin: 8px;  
+  x-box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card:hover {
+  position: relative;
+  left: 100%;
+  margin-left: -32px;
+  box-shadow: 
+    0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+    0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-content {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.bg-01 { background: #93D8FA; }
+.bg-02 { background: #B4D9ED; }
+.bg-03 { background: #DADAED; }
+.bg-04 { background: #FFD9D9; }
+.bg-05 { background: #EEE8AB; }
+.bg-06 { background: #F4F293; }
+
+.logo{
+	position: fixed;
+}
+</style>
 </head>
 <body class="trs-tags">
+	<img src="image/logo_cut.png" class="logo" width="176" height="110" alt="Logo Cut">
+	  <p>&nbsp;</p>  <p>&nbsp;</p>    <p>&nbsp;</p>  
+	  <div class='card-holder'>
+	  <div class='card-wrapper'>
+	    <a href='#'>
+	      <div class='card bg-01'>
+	        <a href="index.html"><span class='card-content'>HOME</span></a>
+	      </div>
+	    </a>
+	  </div>
+	  <div class='card-wrapper'>
+	    <a href='#'>
+	      <div class='card bg-02'>
+	         <a href="about.html"><span class='card-content'>ABOUT ME</span></a>
+	      </div>
+	    </a>
+	  </div>
+	  <div class='card-wrapper'>
+	    <a href='#'>
+	      <div class='card bg-03'>
+	         <a href="Gallery/gallery.html"><span class='card-content'>WORK COLLECTION</span></a>
+	      </div>
+	    </a>
+	  </div>
+	  <div class='card-wrapper'>
+	    <a href='#'>
+	      <div class='card bg-05'>
+	        <a href="Projects.html"><span class='card-content'>PROJECT</span></a>
+	      </div>
+	    </a>
+	  </div>
+	  <div class='card-wrapper'>
+	    <a href='#'>
+	      <div class='card bg-04'>
+	         <a href="Gallery.html"><span class='card-content'>PHOTO ALBUM</span></a>
+	      </div>
+	    </a>
+	  </div>
+	  <div class='card-wrapper'>
+	    <a href='#'>
+	      <div class='card bg-06'>
+	        <a href="contact.html"><span class='card-content'>CONTACT ME</span></a>
+	      </div>
+	    </a>
+	  </div>
+	</div>
+	
  <div class="content">
 
 <div class="album" id="album">
@@ -67,7 +213,6 @@ var Album = new jQuery.Album();
 </div>
 <div style="width:960px;margin:20px auto 100px auto; clear:both; text-align:center; font-size:15px; line-height:25px; color: #4fc5de   ">
 <p>This website is designed and developed by Xinran Li© Copyright reserved.</p>
-<a href="xinranli@andrew.cmu.edu"  style="color:#333"><strong>Contact me</strong></a> </strong>
 </div>
 </body>
 </html>
