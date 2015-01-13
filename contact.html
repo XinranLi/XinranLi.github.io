@@ -7,6 +7,11 @@ p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 }
+
+.meleft{
+    position: fixed;
+}
+
 div.footer {
     background-color: #70a19f;
 	text-align: center;
@@ -15,8 +20,8 @@ div.footer {
 }
 .right {
     position: absolute;
-    right: 250px;
-    width: 600px;
+    right: 500px;
+    width: 390px;
     background-color: #FFFFFF;
 	opacity:0.8;
 }
@@ -27,7 +32,13 @@ div.footer {
 .logo{
 	position: fixed;
 }
-
+.bottom{
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	font-size: 13px;
+	color: #70a19f;
+}
 .meleft{
     position: fixed;
     right: 90px;
@@ -118,6 +129,15 @@ h3{
 </style>
 </head>
 <body>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" class="meleft" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="100" height="60" id="aboutme">
+<param name="allowScriptAccess" value="sameDomain">
+<param name="movie" value="flash/aboutme.swf">
+<param name="quality" value="high">
+<param name="bgcolor" value="#9EE9FF">
+<embed src="flash/aboutme.swf" quality="high" bgcolor="#9EE9FF" width="400" height="240" name="aboutme" align="right" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+</object>
+
+	
 <img src="image/logo_cut.png" class="logo" width="176" height="110" alt="Logo Cut">
   <p>&nbsp;</p>  <p>&nbsp;</p>    <p>&nbsp;</p>  
   <div class='card-holder'>
@@ -165,12 +185,18 @@ h3{
   </div>
 </div>
 
+
 <div class="right">
 <h3>Contact infomation</h3>
-  <p class="blue"><img src="image/mail.png" width="100" height="50" alt="Fb"> xinranli@andrew.cmu.edu</p>
-  <p><img src="image/phone.png" width="260" height="50" alt="Fb"></p>
-    <p><a href="https://www.linkedin.com/profile/view?id=340319893&authType=NAME_SEARCH&authToken=kzwy&locale=en_US&trk=tyah2&trkInfo=tarId%3A1421112092733%2Ctas%3Axinran%2Cidx%3A1-1-1"><img src="image/LI.png" width="180" height="50" alt="Fb"></a></p>
-  <p><a href="https://www.facebook.com/hollyxinranli"><img src="image/fb.png" width="180" height="50" alt="Fb"></a></p>
+  <p class="blue"><img src="image/mail.png" width="100" height="30" alt="mail"> xinranli@andrew.cmu.edu</p>
+  <p><img src="image/phone.png" width="260" height="50" alt="phone"></p>
+    <p><a href="https://www.linkedin.com/profile/view?id=340319893&authType=NAME_SEARCH&authToken=kzwy&locale=en_US&trk=tyah2&trkInfo=tarId%3A1421112092733%2Ctas%3Axinran%2Cidx%3A1-1-1"><img src="image/LI.png" width="210" height="50" alt="linkin"></a></p>
+  <p><a href="https://www.facebook.com/hollyxinranli"><img src="image/fb.png" width="210" height="50" alt="Fb"></a></p>  
+</div>
+<div>
+
+  <p class="bottom">
+  This website is designed and developed by Xinran Li.© Copyright reserved.</p>
 
 
 </body>
