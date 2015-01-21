@@ -16,7 +16,7 @@ div.footer {
 .right {
     position: absolute;
     right: 450px;
-    width: 600px;
+    width: 480px;
     background-color: #FFFFFF;
 	opacity:0.8;
 }
@@ -111,11 +111,44 @@ body {
 h3{
 	color:#2883B0;
 }
+.bottom{
+	left: 10px;
+	bottom: 10px;
+	font-size: 13px;
+	color: #70a19f;
+}
+.header{
+	transform: translate3d(0,0,0);
+}
+.header-image-wrapper {
+position: relative;
+height: 350px;
+overflow: hidden;
+-webkit-transform: translate3d(0,0,0);
+-o-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+-webkit-transition: height .25s linear;
+-o-transition: height .25s linear;
+-ms-transition: height .25s linear;
+-moz-transition: height .25s linear;
+transition: height .25s linear;
+}
 
 </style>
 </head>
+
 <body>
-<img src="image/logo_cut.png" class="logo" width="176" height="110" alt="Logo Cut">
+<header id="header">
+	<div>
+		<a href="/" class="hearcover" data-bg-image="image/cover photo.jpg" style="transform:translated3d(0px, 42px, 0px);">
+		</a>
+	</div>	
+</header>
+	
+	
+<a href="index.html"><img src="image/logo_cut.png" class="logo" width="176" height="110" alt="Logo Cut"></a>
   <p>&nbsp;</p>  <p>&nbsp;</p>    <p>&nbsp;</p>  
   <div class='card-holder'>
   <div class='card-wrapper'>
@@ -165,30 +198,32 @@ h3{
 
 
   <img src="image/mee.jpg" class="meleft" width="400" height="300" alt="Me">
-<p><a href="/Users/xinranli/Documents/XinranLi.github.io/resume/Xinran Li.pdf" class="wordlink" target="_blank"><img src="image/resume.png" width="200" height="100" alt="Resume"></a></p>
+<p><a href="/resume/Xinran Li.pdf" class="wordlink" target="_blank"><img src="image/resume.png" width="200" height="100" alt="Resume"></a></p>
 <div class="right">
 <h3>Hi! I am Xinran Li</h3>
-  <p>I am a currently a master student in Carnegie Mellon University! I major in Computational biology.</p>
-  <p>I love drawing and design! I have been learning drawing since I was 5 years old!</p>
-  <p>I also love taking photos! </p>
+  <p>I am currently a master student in Carnegie Mellon University! I major in Computational biology.</p>
+  <p>I am good at <strong>analyzing biological data</strong> utilizing computational skills and <strong>programming</strong>.</p>
+  <p>I have high proficiency in <strong>image processing</strong> and <strong>graphic design</strong>.</p>
+  <p>I love drawing and artistic design! I have been learning drawing since I was 5 years old!</p>
+  <p>I also love photography! </p>
   <p>I was actively involved in design and I did a lot of propaganda stuffs for the student union in my undergraduate!</p>
-  <P>For more details, please refer to my work collection.</P>
+  <P>For more details, please refer to my work collection and resume.</P>
   <p>&nbsp;</p>   
 <h3>EDUCATION</h3>
   <p><strong>Carnegie Mellon University (CMU)</strong></p>  
   <p>Master of Science in Computational Biology  </p>    
-  <p>WHEN: Aug,2014 ~ May,2016</P>
-  <P>WHERE: Pittsburgh, PA</P>
+  <p>Aug,2014 ~ May,2016</P>
+  <P>Pittsburgh, PA</P>
   <p>&nbsp;</p>               
   <p><strong>Sun Yat-sen University (SYSU)</strong></p>     
   <p>Bachelor of Science in Biological Science, overall</p> 
   <p>GPA: 3.6/4.0 </p>
-  <p>WHEN: Sep,2010 ~ Jun,2014</P>
-  <P>WHERE: Guangzhou, China</P>
+  <p>Sep,2010 ~ Jun,2014</P>
+  <P>Guangzhou, China</P>
   <p>&nbsp;</p>        
 	<h3>What do I know?</h3>
 	<p><strong>Skills:</strong></p>
-	<p>HCI(User interface design), Web development, Drawing, Programming, Bioinformatics analysis.</p>
+	<p>HCI(User interface design), Image processing, Web development, Drawing, Programming, Bioinformatics analysis.</p>
 	<p><strong>Applications:</strong></p>
 	<p>Adobe Series: Photoshop, Lightroom, Dreamweaver, Firework, Flash, Illustrator, Audition.  </p>
 	<p>Autodesk MAYA</p>
@@ -204,11 +239,14 @@ h3{
 	
 	<p>&nbsp;</p> 
 	<h3>What Language do I speak?</h3>
-	<p>English: Fluent</p>
-	<p>Cantonese: Native</p>
-	<p>Mandarin Chinese: Native</p>
-	<p>Japanese: Elementary</p>
+	<p>Fluent: English</p>
+	<p>Native: Cantonese, Mandarin Chinese</p>
+	<p>Elementary: Japanese</p>
+	<p>&nbsp;</p><p>&nbsp;</p>
+    <p class="bottom">
+    This website is designed and developed by Xinran Li.© Copyright reserved.</p>
 </div>
 <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
 </body>
 </html>
