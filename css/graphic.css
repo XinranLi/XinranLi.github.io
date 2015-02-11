@@ -11,3 +11,15 @@ body {
 	bottom: 10px;
 	text-align:center;
 }
+.backright{
+    position: fixed;
+    bottom: 55px;
+    right: 50%;
+	text-align:center;
+}
+.bbright{
+    position: fixed;
+    bottom: 25px;
+    right: 35%;
+	text-align:center;
+}
