@@ -1,3 +1,13 @@
 body {
     background-color: #ffe052;
 }
+
+.imgright{
+    position: absolute;
+	right: 20px;
+}
+.bottom{
+    position: absolute;
+	bottom: 10px;
+	text-align:center;
+}
