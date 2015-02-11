@@ -1,0 +1,140 @@
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+div.footer {
+    background-color: #70a19f;
+	text-align: center;
+	font-size: 3px;
+	color: #70a19f;
+}
+.right {
+    position: absolute;
+    right: 450px;
+    width: 480px;
+    background-color: #FFFFFF;
+	opacity:0.8;
+}
+.left{
+    position: absolute;
+    left: 130px;
+}
+.logo{
+	position: fixed;
+}
+
+.meleft{
+    position: fixed;
+    right: 60px;
+	top: 120px;
+}
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+a.wordlink{
+  color:#B4DBD4;
+  text-decoration: none;
+  text-shadow: 2px 3px 3px #C8E6E2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  position: fixed;
+  right: 80px;
+  top: 450px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+  background: #fff;
+}
+
+.card-holder {  
+  position: fixed;
+  width: 0px;
+  overflow: visible;
+}
+
+.card-wrapper {
+  display: inline-block;
+  float: right;
+  clear: both;
+}
+
+.card {
+  position: relative;
+  left: 32px;
+  padding: 16px 32px 16px 64px;
+  margin: 8px;  
+  x-box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 0 8px -8px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card:hover {
+  position: relative;
+  left: 100%;
+  margin-left: -32px;
+  box-shadow: 
+    0 -8px 8px -8px rgba(0, 0, 0, 0.5),
+    0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-content {
+  display: inline-block;
+  color: #fff;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.bg-01 { background: #93D8FA; }
+.bg-02 { background: #B4D9ED; }
+.bg-03 { background: #DADAED; }
+.bg-04 { background: #FFD9D9; }
+.bg-05 { background: #EEE8AB; }
+.bg-06 { background: #F4F293; }
+h3{
+	color:#2883B0;
+}
+.bottom{
+	left: 10px;
+	bottom: 10px;
+	font-size: 13px;
+	color: #70a19f;
+}
+.header{
+	transform: translate3d(0,0,0);
+}
+.header-image-wrapper {
+position: relative;
+height: 350px;
+overflow: hidden;
+-webkit-transform: translate3d(0,0,0);
+-o-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+-webkit-transition: height .25s linear;
+-o-transition: height .25s linear;
+-ms-transition: height .25s linear;
+-moz-transition: height .25s linear;
+transition: height .25s linear;
+}
+
+.bottom{
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	font-size: 13px;
+	color: #70a19f;
+}

@@ -1,60 +1,115 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Xinran Li's Homepage</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-</head>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
-<body>
+    <style>
+      body {
+        /* Location of the image */
+        background-image: url(images/background.jpg);
 
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center;
 
-<p class="column"><img src="image/logo_cut.png" width="236" height="150" alt="LOGO" /></p>
-<div style="display:inline-block;width:20%">
-<script>
-  (function() {
-    var cx = '010197994982255920722:mllnvnht270';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-</div>
+        /* Background image doesn't tile */
+        background-repeat: no-repeat;
 
+        /* Background image is fixed in the viewport so that it doesn't move when 
+        the content's height is greater than the image's height */
+        background-attachment: fixed;
 
-<p class="column" left="20"><a href="about.html"><img src="image/aboutme.png" width="121" height="29" alt="Aboutme"></a></p>
-<p class="column" left="20"><a href="Gallery/gallery.html"><img src="image/wc.png" width="175" height="29" alt="Aboutme"></a></p>
-<p class="column" left="20"><a href="Projects.html"><img src="image/pa2.png" width="135" height="29" alt="Aboutme"></a></p>
-<p class="column" left="20"><a href="Photo Album.html"><img src="image/pa.png" width="155" height="29" alt="Aboutme"></a></p>
-<p class="column" left="20"><a href="Experience.html"><img src="image/exp.png" width="155" height="29" alt="Aboutme"></a></p>
-<p class="column" left="20"><a href="contact.html"><img src="image/contact.png" width="155" height="29" alt="Aboutme"></a></p>
+        /* This is what makes the background image rescale based
+        on the container's size */
+        background-size: cover;
 
+        /* Set a background color that will be displayed
+        while the background image is loading */
+        background-color: #464646;
+		
+		background-opacity: 0.9;
+		height:650px;
+      }
+      .zigzag {
+        position: absolute;
+        width: 100%;
+        height: 545px;
+        top: 420px;
+        background: #ffe553;
+        z-index: 1;
+        /*-webkit-filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 1px 2px);*/
+      }
+      .zigzag:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -45px;
+        width: 100%;
+        height: 45px;
+        background:
+        linear-gradient(
+        45deg, transparent 33.333%,
+        #ffe553 33.333%, #ffe553 66.667%,
+        transparent 66.667%
+        ),
+        linear-gradient(
+        -45deg, transparent 33.333%,
+        #ffe553 33.333%, #ffe553 66.667%,
+        transparent 66.667%
+        );
+        background-size: 90px 180px;
+      }
+      .zigzag .row .col {
+      	padding: 20px;
+      }
+    </style>
+    <!-- [Fixed] Navigation -->
+    <div class="navbar-fixed" style = "opacity: 0.8">
+      <nav>
+      <div class="nav-wrapper cyan darken-4">
+        <div class="col s12">
+          <a href="#!" class="brand-logo" style="padding-left:20px; font-family: 'Montserrat', sans-serif; color: white">Xinran's Portfolio</a>
+          <ul class="right side-nav">
+            <li><a href="about.html"><img src="images/icon/icons.png" width="64" height="64" alt="Icons"></a></li>
+            <li><a href="contact.html"><img src="images/icon/contact.png" width="64" height="64" alt="Icons"></a></li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+    </div>
 
-<p class="column">&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
-
-<h1 class="pos_fixed"><img src="image/welcome.gif" width="248" height="52" alt="Welcome"></h1>
-
-
-<img src="image/bubble.png" class="resume" width="300" height="200" alt="Bubble">
-<div class="scroll""right"><p>Hello! I am <strong>Xinran Li</strong>. I am a Master student in Computational Biolody in Carnegie Mellon University. I am proficient in computer programming and bioinformatics analysis! I am also very skillful at image processing and graphic design in user interface! I can draw comic and design advertisment! </p>
-<p>I am currently looking for summer intership in 2015. Hope to hear from you if you like my work!^_^<br /><br />Feel free to contact me:<br />xinranli@cmu.edu<br />(412)9326740</p></div>
-
-<img src="image/me.png" class="imgright" width="300" height="550" alt="Mascot">
-
-<p class="resume2"><a href="/resume/Xinran Li.pdf" class="wordlink" target="_blank"><img src="image/resume.png" width="220" height="110" alt="Resume"></a></p>
-
-
-<p class="bottom">Please note: This website is currently under construction.<br />The current page might not be the up to date version. <br />Sorry for the inconvenience.<br /> 
-This website is designed and developed by Xinran Li. &copy; Copyright reserved.</p>
-</body>
+    <!-- [Fixed] Zigzag -->
+    <div class="zigzag" style="opacity:0.9">
+      <div class="container">
+        <div class="row">
+			<h1 class="pixelfont" style="text-align:center; font-family: 'Montserrat', sans-serif; color: white">SEE ME AS...</h1>
+          <div class="col m4 s12 valign-wrapper"><span class="flow-text"><a href="graphic.html"><img src="images/graphic.jpg"></img></a></span></div>
+          <div class="col m4 s12 valign-wrapper"><span class="flow-text"><a href="software.html"><img src="images/software.jpg"></img></a></span></div>
+		  <div class="col m4 s12 valign-wrapper"><span class="flow-text"><a href="compbio.html"><img src="images/compbio.jpg"></img></a></span></div>
+		  <p>&nbsp;</p>
+		  <p style="text-align:center">This website is designed and developed by Xinran Li&copy; All right reserved.</p>
+		  	<a href="resume/Xinran Li-CS.pdf" class="wordlink" target="_blank"><img class="align:right" style="position: absolute; bottom: 0px;right: 0px;" src="images/icon/halfheadcv.png" width="280" height="280" alt="Halfheadcv"></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l6 offset-l5 m11 offset-m0">
+        <div class="card teal darken-2" style = "opacity: 0.8" >
+            <div class="card-content white-text" style = "opacity: 0.9">
+              <span class="card-title" style="font-family: 'Montserrat', sans-serif; color: white">Hello! I am <span style="color: yellow"><strong>Xinran Li</strong></span> !</span>
+              <p >I am a Master student at Carnegie Mellon University. I am proficient in <a href="software.html">computer programming</a>and <a href="compbio.html">bioinformatics analysis!</a>I am also very skillful at <a href="graphic.html">image processing and graphic user interface(GUI) design!</a></p>
+<p>I am currently looking for summer internship in 2015. My objective is to utilize my skills in <a href="graphic.html">UX design, web development,</a><a href="software.html">software engineering,</a><a href="compbio.html">data analysis.</a>Please feel free to contact me if you find me interesting. :-)</p>
+            </div>
+            <div class="card-action">
+              <a href="mailto:xinranli@andrew.cmu.edu">xinranli@cmu.edu</a>
+			  <a href="#">TEL: (412)9326740</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
 </html>

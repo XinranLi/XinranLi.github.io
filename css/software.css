@@ -1,0 +1,7 @@
+body {
+    background-color:#d1f4ff;
+	background:url(../images/icon/sebg.png);
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size:20% 22%;
+	background-size:15% 20%;
+}
