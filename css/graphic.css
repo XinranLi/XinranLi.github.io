@@ -3,8 +3,9 @@ body {
 }
 
 .imgright{
-    position: absolute;
+    position: fixed;
 	right: 20px;
+	bottom: 0px;
 }
 .bottom{
     position: absolute;
@@ -12,14 +13,14 @@ body {
 	text-align:center;
 }
 .backright{
-    position: fixed;
-    bottom: 55px;
+    position: absolute;
+    bottom: 25px;
     right: 50%;
 	text-align:center;
 }
 .bbright{
-    position: fixed;
-    bottom: 25px;
+    position: absolute;
+    bottom: 0px;
     right: 35%;
 	text-align:center;
 }
