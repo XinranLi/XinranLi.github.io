@@ -4,11 +4,11 @@ body {
 div.scroll {
     background-color: #b5f7f6;
 	opacity: 0.9;
-    width: 40%;
-    height: 25%;
+    width: 70%;
+    height: 65%;
     overflow: scroll;
     position: absolute;
-    top: 30%;
-    right: 30%;
-	text-align:center;
+    top: 20%;
+    right: 10%;
+	text-align:left;
 }

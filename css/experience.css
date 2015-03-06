@@ -6,7 +6,7 @@ div.footer {
 }
 .right {
     position: absolute;
-    right: 250px;
+    right: 200px;
     width: 800px;
     background-color: #FFFFFF;
 	opacity:0.8;
@@ -95,3 +95,10 @@ body {
 .logo{
 	position: fixed;
 }
+.center{
+	text-align:center;
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
