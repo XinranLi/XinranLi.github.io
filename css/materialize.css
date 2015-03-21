@@ -7784,4 +7784,13 @@ ul.side-nav .collapsible-body li.active, ul.side-nav.fixed .collapsible-body li.
    align: center;
    font-weight: bold;
 }
-   
+
+.fadein img{
+opacity:1;
+transition: 1s ease;
+}
+
+.fadein img:hover{
+opacity:0.6;
+transition: 1s ease;
+}

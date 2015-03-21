@@ -12,3 +12,13 @@ div.scroll {
     right: 10%;
 	text-align:left;
 }
+
+.fadein img{
+opacity:1;
+transition: 1s ease;
+}
+
+.fadein img:hover{
+opacity:0.6;
+transition: 1s ease;
+}
