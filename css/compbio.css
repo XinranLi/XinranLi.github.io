@@ -5,10 +5,10 @@ div.scroll {
     background-color: #b5f7f6;
 	opacity: 0.9;
     width: 70%;
-    height: 65%;
+    height: 55%;
     overflow: scroll;
     position: absolute;
-    top: 20%;
+    top: 35%;
     right: 10%;
 	text-align:left;
 }
