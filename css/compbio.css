@@ -13,6 +13,42 @@ div.scroll {
 	text-align:left;
 }
 
+#title{
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 35px;
+	color: #105553;
+}
+
+#fbuble{
+    position: absolute;
+    top: 25%;
+    left: 17%;
+	background-color: #ffffff;
+    height: 38px;
+    width: 38px;
+    border-radius: 19px;
+	color: white;
+	margin: 10px;
+	display: inline-block;
+	line-height: 50px;
+}
+	
+#sbuble{
+    position: absolute;
+    top: 29%;
+    left: 14%;
+	background-color: #ffffff;
+    height: 22px;
+    width: 22px;
+    border-radius: 11px;
+	color: white;
+	margin: 10px;
+	display: inline-block;
+	line-height: 50px;
+}
+
+
 .fadein img{
 opacity:1;
 transition: 1s ease;
