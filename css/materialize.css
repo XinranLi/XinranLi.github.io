@@ -5334,8 +5334,8 @@ small {
     .card .card-title.activator {
       cursor: pointer; }
   .card a {
-    color: #ffab40;
-    margin-right: 20px;
+    color: yellow;
+    margin-right: 5px;
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;

@@ -1,16 +1,20 @@
 body {
     background-color: #c8efdb;
 }
+
 div.scroll {
     background-color: #b5f7f6;
+	padding: 35px;
+	margin: auto;
+	border-radius: 35px;
 	opacity: 0.9;
-    width: 70%;
-    height: 55%;
+    width: 800px;
+    height: 300px;
     overflow: scroll;
-    position: absolute;
     top: 35%;
-    right: 10%;
 	text-align:left;
+	position: absolute; 
+	left: 270px; 
 }
 
 #title{
@@ -18,13 +22,20 @@ div.scroll {
 	padding: 20px;
 	border-radius: 35px;
 	color: #105553;
+	position: absolute; 
+    width: 800px;
+    height: 100px;
+	left: 270px; 
+	font-family: 'Merriweather', serif;
+	font-size:35px;
 }
 
 #fbuble{
     position: absolute;
     top: 25%;
-    left: 17%;
+    left: 210px; 
 	background-color: #ffffff;
+	padding: 20px;
     height: 38px;
     width: 38px;
     border-radius: 19px;
@@ -37,7 +48,7 @@ div.scroll {
 #sbuble{
     position: absolute;
     top: 29%;
-    left: 14%;
+    left: 180px;
 	background-color: #ffffff;
     height: 22px;
     width: 22px;
@@ -57,4 +68,25 @@ transition: 1s ease;
 .fadein img:hover{
 opacity:0.6;
 transition: 1s ease;
+}
+
+
+#bottom{
+	text-align:center; 
+	position: absolute; 
+	bottom: 0px; 
+	left: 35%;
+	margin: auto;
+}
+
+
+
+#Sci{
+	 width: 180px;
+	 height:460px;
+	 align:left;
+	 position: absolute;
+	 top: 20%; 
+	 bottom: 0px;
+	 left: 10px;
 }

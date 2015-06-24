@@ -1,3 +1,61 @@
+  body {
+
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+    while the background image is loading */
+    background-color: #464646;
+	
+	background-opacity: 0.9;
+	height:650px;
+  }
+  .zigzag {
+    position: absolute;
+    width: 100%;
+    height: 545px;
+    top: 420px;
+    background: #ffe553;
+    z-index: 1;
+    /*-webkit-filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 1px 2px);*/
+  }
+  .zigzag:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -45px;
+    width: 100%;
+    height: 45px;
+    background:
+    linear-gradient(
+    45deg, transparent 33.333%,
+    #ffe553 33.333%, #ffe553 66.667%,
+    transparent 66.667%
+    ),
+    linear-gradient(
+    -45deg, transparent 33.333%,
+    #ffe553 33.333%, #ffe553 66.667%,
+    transparent 66.667%
+    );
+    background-size: 90px 180px;
+  }
+  .zigzag .row .col {
+  	padding: 20px;
+  }
+
+
+
 .fadein img{
 opacity:0.9;
 transition: 0.5s ease;
@@ -71,6 +129,7 @@ user agent stylesheeta:-webkit-any-link {
 }
 Inherited from body
 index.htmlmedia="all"
+/*
 body {
   margin: 0 auto;
   max-width: 800px;
@@ -79,3 +138,10 @@ body {
   color: #333;
   line-height: 140%;
 }
+*/
+
+a{
+	color: yellow;
+}
+
+
