@@ -30,6 +30,20 @@ div.scroll {
 	font-size:35px;
 }
 
+#cv{
+	padding: 20px;
+	color: #105553;
+	position: absolute; 
+    top: 120px;
+    width: 800px;
+    height: 50px;
+	left: 300px; 
+    text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size:16px;
+}
+
+
 #fbuble{
     position: absolute;
     top: 25%;
