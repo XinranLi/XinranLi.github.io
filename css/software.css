@@ -5,3 +5,26 @@ body {
 	-moz-background-size:10% 7%;
 	background-size:10% 7%;
 }
+
+div.bar{
+    background-color: #eeeeee;
+    height: 30px;
+    margin: -45;
+    width: 120%;
+    text-align: center;
+    font-size: 21px;
+}
+
+circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+div.fakebutton{
+    text-align: left; 
+    font-size: 51px;
+}
