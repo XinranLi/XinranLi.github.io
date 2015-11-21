@@ -31,9 +31,10 @@
 }
 .afterhead{
     position: absolute;
-    bottom:-900;
+    bottom:-700;
     left: 0;
     width: 100%;
+    height: 80;
     text-align: center;
     font-family: monospace;
 }
