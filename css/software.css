@@ -15,6 +15,15 @@ div.bar{
     font-size: 21px;
 }
 
+div.bar2{
+    position: absolute;
+    text-align: left;
+    font-size: 40px; 
+    left:4px;
+    top: -13px;
+    z-index:1
+}
+
 circle {
     width: 100px;
     height: 100px;
