@@ -24,3 +24,13 @@ body {
     right: 35%;
 	text-align:center;
 }
+
+.footer{
+    background-color: beige;
+    bottom: 0px;
+    height: 20%;
+    text-align:center;
+    margin: auto;
+    padding: 30px;
+    color: burlywood;
+}
