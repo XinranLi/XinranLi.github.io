@@ -164,4 +164,17 @@ a{
 	color: yellow;
 }
 
+.CVhead{
+    width: 500px; 
+    height: 500px;
+    background-image: url('../images/icon/halfheadcv.png');
+    position: relative; 
+    bottom: 0px;
+    right: 0px;
+    z-index: 3;
+}
+.CVhead:hover{
+    background-image: url('../images/icon/halfheadcv_hover.png');
+}
+
 
