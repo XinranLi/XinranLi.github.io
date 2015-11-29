@@ -15,8 +15,11 @@ div img #slogo{
 
 #me{
     position: fixed;
-    right: 60px;
+    right: 150px;
 	top: 120px;
+    text-align: center;
+    color: darkgrey;
+    font-size: 25;
 }
 
 #bottom{
