@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="117px" height="96px" viewBox="0 0 117 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch Beta 3.0.4 (7897) - http://www.bohemiancoding.com/sketch -->
+    <title>default-image</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="default" sketch:type="MSLayerGroup" transform="translate(9.000000, 9.000000)" stroke-width="0.5" stroke="#979797">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="devices">
+                    <g id="picture-2">
+                        <path d="M35.6061463,41.3426084 L52.1419664,57.5102685 L70.2673596,25.1798321 L90.0160612,65.3835543 L10.2730235,65.0634181 L35.6061463,41.3426084 Z" id="Path-273"></path>
+                        <rect id="Rectangle-176" x="0" y="0" width="98.8463467" height="77.5756138"></rect>
+                        <ellipse id="Oval-78" cx="21.7628137" cy="21.7585371" rx="8.76281368" ry="8.75853705"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

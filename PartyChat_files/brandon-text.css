@@ -1,0 +1,114 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2858910, 2014-08-07T07:16:15-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Brandon Text Bold Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/bold-italic/
+ *
+ * Webfont: Brandon Text Bold by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/bold/
+ *
+ * Webfont: Brandon Text Black Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/black-italic/
+ *
+ * Webfont: Brandon Text Black by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/black/
+ *
+ * Webfont: Brandon Text Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/italic/
+ *
+ * Webfont: Brandon Text Regular by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/regular/
+ *
+ * Webfont: Brandon Text Medium by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/medium/
+ *
+ * Webfont: Brandon Text Medium Italic by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brandon-text/medium-italic/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2858910
+ * Licensed pageviews: 100,000
+ * Webfonts copyright: Copyright (c) 2012 by Hannes von Doehren. All rights reserved.
+ *
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/*@import url("//hello.myfonts.net/count/2b9f9e");*/
+
+/* Fakt Pro Soft
+// ------------------------- */
+
+@font-face {
+    font-family: "VenturaEdding";
+    src: url("webfonts/ventura/VenturaEdding-Bold.eot");
+    src: url("webfonts/ventura/VenturaEdding-Bold.eot?#iefix") format("embedded-opentype"),
+         url("webfonts/ventura/VenturaEdding-Bold.woff") format("woff"),
+         url("webfonts/ventura/VenturaEdding-Bold.ttf")  format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FaktProSoft";
+    src: url("webfonts/fakt-soft/FaktSoftPro-Blond.eot");
+    src: url("webfonts/fakt-soft/FaktSoftPro-Blond.eot?#iefix") format("embedded-opentype"),
+         url("webfonts/fakt-soft/FaktSoftPro-Blond.woff") format("woff"),
+         url("webfonts/fakt-soft/FaktSoftPro-Blond.ttf")  format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FaktProSoft";
+    src: url("webfonts/fakt-soft/FaktSoftPro-Normal.eot");
+    src: url("webfonts/fakt-soft/FaktSoftPro-Normal.eot?#iefix") format("embedded-opentype"),
+         url("webfonts/fakt-soft/FaktSoftPro-Normal.woff") format("woff"),
+         url("webfonts/fakt-soft/FaktSoftPro-Normal.ttf")  format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FaktProSoft";
+    src: url("webfonts/fakt-soft/FaktSoftPro-Medium.eot");
+    src: url("webfonts/fakt-soft/FaktSoftPro-Medium.eot?#iefix") format("embedded-opentype"),
+         url("webfonts/fakt-soft/FaktSoftPro-Medium.woff") format("woff"),
+         url("webfonts/fakt-soft/FaktSoftPro-Medium.ttf")  format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Brandon Text
+// ------------------------- */
+
+@font-face {font-family: 'BrandonText-BoldItalic';src: url('webfonts/2B9F9E_0_0.eot');src: url('webfonts/2B9F9E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9F9E_0_0.woff') format('woff'),url('webfonts/2B9F9E_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BrandonText-Bold';src: url('webfonts/2B9F9E_1_0.eot');src: url('webfonts/2B9F9E_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9F9E_1_0.woff') format('woff'),url('webfonts/2B9F9E_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BrandonText-BlackItalic';src: url('webfonts/2B9F9E_2_0.eot');src: url('webfonts/2B9F9E_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9F9E_2_0.woff') format('woff'),url('webfonts/2B9F9E_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BrandonText-Black';src: url('webfonts/2B9F9E_3_0.eot');src: url('webfonts/2B9F9E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9F9E_3_0.woff') format('woff'),url('webfonts/2B9F9E_3_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BrandonText-RegularItalic';src: url('webfonts/2B9F9E_4_0.eot');src: url('webfonts/2B9F9E_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9F9E_4_0.woff') format('woff'),url('webfonts/2B9F9E_4_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BrandonText-Regular';src: url('webfonts/2B9F9E_5_0.eot');src: url('webfonts/2B9F9E_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9F9E_5_0.woff') format('woff'),url('webfonts/2B9F9E_5_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BrandonText-Medium';src: url('webfonts/2B9F9E_6_0.eot');src: url('webfonts/2B9F9E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9F9E_6_0.woff') format('woff'),url('webfonts/2B9F9E_6_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'BrandonText-MediumItalic';src: url('webfonts/2B9F9E_7_0.eot');src: url('webfonts/2B9F9E_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2B9F9E_7_0.woff') format('woff'),url('webfonts/2B9F9E_7_0.ttf') format('truetype');}
