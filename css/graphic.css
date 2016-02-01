@@ -85,3 +85,78 @@ body {
   a.hovertext:hover:after, a.hovertext:focus:after {
     opacity: 1.0;
   }
+
+    .container {
+        position: relative;
+        width: 400px;
+        height: 200px;
+        z-index: 1;
+        -webkit-perspective: 1000px;
+        -moz-perspective: 1000px;
+        -o-perspective: 1000px;
+        perspective: 1000px;
+    }
+
+    .flipcard {
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: 0.3s ease-in all;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transition: 0.3s linear all;
+        -moz-transform-style: preserve-3d;
+        -moz-transition: 0.3s linear all;
+        -o-transform-style: preserve-3d;
+        -o-transition: 0.3s linear all;
+    }
+
+    .container:hover .flipcard,
+    .container.hover_effect .flipcard {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    /*
+
+    .flipcard:hover,
+    .flipcard.hover_effect .flipcard {
+        -webkit-transform: rotateY(180deg);
+        -webkit-box-shadow: -5px 5px 5px #aaa;
+        -moz-transform: rotateY(180deg);
+        -moz-box-shadow: -5px 5px 5px #aaa;
+        -o-transform: rotateY(180deg);
+        -o-box-shadow: -5px 5px 5px #aaa;
+        transform: rotateY(180deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }*/
+
+    .face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .face.back {
+        display: block;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -mox-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        padding: 10px;
+        color: #fff;
+        background: #b3e9ff;
+
+    }
+    .center {
+        text-align: center; 
+    }

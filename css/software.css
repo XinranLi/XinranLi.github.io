@@ -37,3 +37,24 @@ div.fakebutton{
     text-align: left; 
     font-size: 51px;
 }
+
+footer{
+    background-color: #2b5c70;
+    text-align:center;
+    margin: auto;
+    padding: 1em;
+    color: #d6f3ff;
+    width: 100%;
+}
+
+/*pad*/
+@media screen and (max-width: 768px) {   
+    .imghead {
+        display: none;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    .imghead { display: none;}
+}

@@ -22,7 +22,7 @@
 	height:650px;
   }
 .headbg{
-    position: absolute;
+    position: fixed;
     top:0;
     left: 0;
     width: 100%;
@@ -31,23 +31,20 @@
     background-image: url(../images/background.jpg)
 }
 .afterhead{
-    position: absolute;
-    bottom:-700;
-    left: 0;
-    width: 100%;
-    height: 100;
+    padding: 2em;
     text-align: center;
+    background: #ffffff;
+    color: #484f5e;
+    width: 100%;
     font-family: monospace;
 }
 
   .zigzag {
     position: absolute;
     width: 100%;
-    height: 500px;
-    bottom: -480px;
     background: #ffe553;
     z-index: 1;
-    /*-webkit-filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 1px 2px);*/
+    -webkit-filter: drop-shadow(rgba(100, 70, 30, 0.8) 0px 1px 2px);
   }
   .zigzag:before {
     content: "";
@@ -82,9 +79,10 @@ transition: 0.5s ease;
 }
 
 .fadein img:hover{
-opacity:1;
-transition: 0.5s ease;
-transform: scale(1.05);
+    opacity:1;
+    transition: 0.5s ease;
+    transform: scale(1.05);
+    -webkit-filter: drop-shadow(rgba(100, 70, 30, 0.8) 0px 1px 2px);
 }
 
 .hvr-overline-from-center {
@@ -164,6 +162,15 @@ a{
 	color: yellow;
 }
 
+main {
+    display: block;
+    position: relative;
+}
+
+nav.small {
+    height: 10px;
+}
+
 .CVhead{
     width: 500px; 
     height: 500px;
@@ -177,15 +184,18 @@ a{
     background-image: url('../images/icon/halfheadcv_hover.png');
 }
 
-.footer{
+footer{
+    position: absolute;
+    bottom: -800px;
     background-color: dimgrey;
-    height: 20%;
     text-align:center;
     margin: auto;
     padding: 30px;
     color: ghostwhite;
-    position: absolute;
-    bottom:-1000;
-    left: 0;
     width: 100%;
 }
+
+footer .col {
+        line-height: 3em;
+        display: inline-block;
+    }

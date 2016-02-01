@@ -1959,8 +1959,11 @@ ul {
   list-style-type: none; }
 
 a {
-  color: #039be5;
   text-decoration: none; }
+
+a:hover {
+    color: #039be5;
+}
 
 .valign-wrapper {
   display: -webkit-box;
@@ -4980,7 +4983,17 @@ span.badge {
         margin-left: 100%; }
  }
 
+nav.small {
+    height: 10px;
+}
+
+nav div.small {
+    display: none;
+}
+
+
 nav {
+    transition: height 0.3s linear;
   color: #fff;
   background-color: #ee6e73;
   width: 100%;
@@ -5000,12 +5013,27 @@ nav {
       font-size: 2.7rem;
       height: 56px;
       line-height: 56px; }
-  nav .brand-logo {
+.brand-logo {
+    padding-left:1em; 
+    font-family: 'Montserrat', sans-serif; 
     position: absolute;
+    transition: linear 0.3s;
     color: #fff;
-    display: inline-block;
     font-size: 2.1rem;
-    padding: 0; }
+}
+
+.brand-logo.small {
+    opacity: 0;
+}
+
+.imghead {
+    transition: linear 0.3s;
+}
+
+.imghead.small {
+    opacity: 0;
+}
+
     @media only screen and (max-width : 992px) {
       nav .brand-logo {
         left: 0;
@@ -5322,9 +5350,9 @@ small {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
   background-clip: padding-box; }
   .card .card-title {
     color: #fff;
@@ -5377,10 +5405,10 @@ small {
       left: 0;
       padding: 20px; }
   .card .card-content {
-    padding: 20px;
-    -webkit-border-radius: 0 0 2px 2px;
-    -moz-border-radius: 0 0 2px 2px;
-    border-radius: 0 0 2px 2px;
+    padding: 2em;
+    -webkit-border-radius: 0 0 1em 1em;
+    -moz-border-radius: 0 0 1em 1em;
+    border-radius: 0 0 1em 1em;
     background-clip: padding-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;

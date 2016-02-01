@@ -16,7 +16,8 @@ div.scroll {
 	position: absolute; 
 	left: 270px; 
 }
-
+/*desktop*/
+@media screen and (min-width: 769px) {
 #title{
 	background-color: #ffffff;
 	padding: 20px;
@@ -44,36 +45,6 @@ div.scroll {
 }
 
 
-#fbuble{
-    position: absolute;
-    top: 25%;
-    left: 210px; 
-	background-color: #ffffff;
-	padding: 20px;
-    height: 38px;
-    width: 38px;
-    border-radius: 19px;
-	color: white;
-	margin: 10px;
-	display: inline-block;
-	line-height: 50px;
-}
-	
-#sbuble{
-    position: absolute;
-    top: 29%;
-    left: 180px;
-	background-color: #ffffff;
-    height: 22px;
-    width: 22px;
-    border-radius: 11px;
-	color: white;
-	margin: 10px;
-	display: inline-block;
-	line-height: 50px;
-}
-
-
 .fadein img{
 opacity:1;
 transition: 1s ease;
@@ -93,14 +64,87 @@ transition: 1s ease;
 	margin: auto;
 }
 
+    #Sci{
+         width: 180px;
+         height:460px;
+         align:left;
+         position: absolute;
+         top: 20%; 
+         bottom: 0px;
+         left: 10px;
+    }
+    
+    #fbuble{
+        position: absolute;
+        top: 25%;
+        left: 210px; 
+        background-color: #ffffff;
+        padding: 20px;
+        height: 38px;
+        width: 38px;
+        border-radius: 19px;
+        color: white;
+        margin: 10px;
+        display: inline-block;
+        line-height: 50px;
+    }
+
+    #sbuble{
+        position: absolute;
+        top: 29%;
+        left: 180px;
+        background-color: #ffffff;
+        height: 22px;
+        width: 22px;
+        border-radius: 11px;
+        color: white;
+        margin: 10px;
+        display: inline-block;
+        line-height: 50px;
+    }
+}
+
+footer{
+    background-color: #4e9c92;
+    text-align:center;
+    margin: auto;
+    padding: 1em;
+    color: ghostwhite;
+    width: 100%;
+}
+
+footer .col {
+        line-height: 1em;
+        display: inline-block;
+        text-align: left;
+        padding: 1em;
+    }
+
+nav.small {
+    height: 10px;
+}
+
+nav.li.small {
+    display: none;
+}
 
 
-#Sci{
-	 width: 180px;
-	 height:460px;
-	 align:left;
-	 position: absolute;
-	 top: 20%; 
-	 bottom: 0px;
-	 left: 10px;
+/*pad*/
+@media screen and (max-width: 768px) {
+    #Sci, #fbuble, #sbuble { display: none;}
+    #title {
+        width: 100%;
+        margin: 0;
+    }
+    
+    h3 {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    #Sci, #fbuble, #sbuble { display: none;}
 }
