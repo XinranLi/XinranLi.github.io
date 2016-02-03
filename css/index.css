@@ -209,3 +209,15 @@ footer .col {
         line-height: 3em;
         display: inline-block;
     }
+
+/*pad*/
+@media screen and (max-width: 768px) {   
+    #cvlink {
+        display: none;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    #cvlink { display: none;}
+}
