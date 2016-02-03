@@ -185,8 +185,6 @@ nav.small {
 }
 
 footer{
-    position: relative;
-    bottom: 0;
     background-color: dimgrey;
     text-align:center;
     margin: auto;
