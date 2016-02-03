@@ -13,6 +13,11 @@
     
 }
 
+.navcol {
+    background-color: #c09471 !important;
+}
+
+
 a {
     color: cornsilk;
 }
@@ -22,7 +27,7 @@ a {
 }
 
 .proj a:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 h1 {
