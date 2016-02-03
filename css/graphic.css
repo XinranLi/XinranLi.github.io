@@ -1,5 +1,11 @@
 body {
     background-color: #f9f9f9;
+    background:
+    radial-gradient(#d5fff9 15%, transparent 16%) 0 0,
+    radial-gradient(#d5fff9 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-size:20px 20px;
 }
 
 .imgright{
@@ -13,6 +19,19 @@ body {
     position: fixed;
 	left: 0px;
 	bottom: 0px;
+}
+
+.banner {
+    margin: auto;
+    text-align: center;
+}
+
+.headimg {
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .talk{
@@ -48,7 +67,7 @@ body {
     right: 35%;
 	text-align:center;
 }
-
+/*
 .footer{
     background-color: #b3e9d8;
     bottom: 0px;
@@ -57,8 +76,75 @@ body {
     margin: auto;
     padding: 30px;
     color: white;
+}*/
+
+.port {
+    position: relative;
+    width: 400px;  
 }
 
+.speech {
+	position: fixed;
+	width: 200px;
+    left: 8%;
+    top: 15%;
+	text-align: center;
+	line-height: 100px;
+	background-color: #fffcd5;
+    opacity: 0.7;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #b39b6c;
+	-moz-box-shadow: 2px 2px 4px #b39b6c;
+	box-shadow: 2px 2px 4px #b39b6c;
+}
+
+.speech:before
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 45%;
+	top: 100px;
+	border: 18px solid;
+	border-color: #b39b6c transparent transparent #b39b6c;
+    
+}
+
+.speech:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 45%;
+	top: 100px;
+	border: 17px solid;
+	border-color: #fffcd5 transparent transparent #fffcd5;
+}
+
+.banner img:hover {
+    opacity: 0.8;
+}
+
+footer{
+
+    text-align:center;
+    margin: auto;
+    padding: 1em;
+    color: #d6f3ff;
+    width: 100%;
+    background-color:#269;
+    background:
+    radial-gradient(#ddfffa 15%, transparent 16%) 0 0,
+    radial-gradient(#ddfffa 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color: #7ce6d6;
+    background-size:16px 16px;
+}
 
   a.hovertext {
     position: relative;
@@ -160,3 +246,24 @@ body {
     .center {
         text-align: center; 
     }
+
+#logos {
+    display: none;
+}
+
+
+/*pad*/
+@media screen and (max-width: 768px) {   
+    .imgleft, .imgright {
+        display: none;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    .imgleft, .imgright, #logo { display: none;}
+    #logos {
+        display: block;
+        text-align: center;
+    }
+}

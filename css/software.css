@@ -1,9 +1,14 @@
 body {
-    background-color:#d1f4ff;
-	background:url(../images/icon/sebg.png);
+	background-color:#cbedff;
+    background-image: linear-gradient(#a4c5d7 2px, transparent 2px),
+    linear-gradient(90deg, rgba(165,195,215,.3) 2px, transparent 2px),
+    linear-gradient(rgba(175,205,215,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+    background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
 	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
-	-moz-background-size:10% 7%;
-	background-size:10% 7%;
+	-moz-background-size:2% 1.4%;
+    background-attachment: fixed;
 }
 
 div.bar{
@@ -39,12 +44,20 @@ div.fakebutton{
 }
 
 footer{
-    background-color: #2b5c70;
+
     text-align:center;
     margin: auto;
     padding: 1em;
     color: #d6f3ff;
     width: 100%;
+    background-color:#269;
+    background:
+    radial-gradient(#6392ab 15%, transparent 16%) 0 0,
+    radial-gradient(#6392ab 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color: #2b5c70;
+    background-size:16px 16px;
 }
 
 /*pad*/
