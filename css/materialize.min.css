@@ -5056,6 +5056,7 @@ nav {
     nav ul a {
       font-size: 1rem;
       color: #fff;
+        overflow: hidden;
       display: block;
       padding: 0px 15px; }
     nav ul.left {
