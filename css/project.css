@@ -1,0 +1,68 @@
+.bodycontainer {
+    width: 100%;
+    margin: 3em;
+}
+
+.projcontainer {
+    width: 80%;
+    padding: 2em;
+    margin: 1em auto;
+    margin-left: 5em;
+    font-family: 'Handlee', cursive;
+    line-height: 1.5em;
+    
+}
+
+a {
+    color: cornsilk;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+}
+
+ul {
+    line-height: 2em;
+    text-indent: 1em;
+}
+
+.projcontainer h2 {
+    color: darkred;
+    font-family: 'Handlee', cursive;
+}
+
+.proj{
+    padding: 1em;
+    margin:2em;
+}
+
+.shoot {
+    width: 350px;
+    height: 350px;
+    float: right;
+}
+
+footer{
+    background-color: dimgrey;
+    text-align:center;
+    margin: auto;
+    padding: 30px;
+    color: cornsilk;
+    width: 100%;
+    z-index: 999;
+background-color: #dcac6a;
+background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 90%),
+linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+background-size: 13px, 29px, 37px, 53px;
+}
+
+body {
+    background-color: #fffcf6; 
+    background-image: 
+    linear-gradient(90deg, transparent 79px, #900029 79px, #83c6c4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.6em;
+}

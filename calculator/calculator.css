@@ -1,0 +1,111 @@
+/*
+author@Xinran Li
+*/
+
+.error {
+	font-family: Arial;
+	position: fixed;
+	font-size: 14px;
+	text-align:left;
+	font-family: Arial;
+	top:4px;
+}
+
+.heading {
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 36px;
+}
+
+.screen {
+	border: 2px solid #cdcebe;
+	font-family: Arial;
+	font-size: 25px;
+	background-color:#e9ead4;
+    border-radius: 3px;
+	padding:4px;
+	text-align:right;
+	height: 45px;
+	width:300px;
+	margin:8px;
+	padding:13px;
+}
+
+.numberbutton{
+    color: aliceblue;
+	border: 2px solid #a7cc71;
+	background-color:#bedd91;
+	font:Arial;
+	font-size: 20px;
+	width: 62px;
+	height: 45px;
+	text-align:center;
+	margin:10px;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+}
+.numberbutton:hover {
+    border: 2px solid white;
+	background-color:#abcb7d;
+}
+
+.operationbutton{
+    color: white;
+	border: 2px solid #ebb8aa;
+	background-color:#fbd9d0;
+	font:Arial;
+	font-size: 20px;
+	width: 62px;
+	height: 45px;
+	text-align:center;
+	margin:10px;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+}
+
+.operationbutton:hover{
+	background-color:#fcc1d7;
+    border: 2px solid white;
+}
+
+.table{
+	margin: 3em auto;
+	padding:50px;
+    text-align: center;
+}
+
+.iconhead {
+    position: relative;
+    text-align: center;
+    height: 10vh;
+}
+
+button {
+    position: absolute;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3em;
+    width: 22em;
+    background-color:#fff3ab;
+    border-radius: 2em;
+}
+
+body {
+    background-color: #c0e9ed;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+}
+
+hr {
+    border: 0.5px solid white;
+}

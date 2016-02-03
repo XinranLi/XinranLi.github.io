@@ -1959,10 +1959,7 @@ ul {
   list-style-type: none; }
 
 a {
-  text-decoration: none; }
-
-a:hover {
-    color: #039be5;
+  text-decoration: none; 
 }
 
 .valign-wrapper {

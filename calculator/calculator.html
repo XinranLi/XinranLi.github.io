@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Calculator</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="calculator.css"/>
+</head>
+
+<body>
+    <div class="heading">
+    <p style="font-size: 36px; ">Holly's Calculator</p>
+        </div>
+    <div class="iconhead">
+    <img src="icon.png" id="logo" alt="logo icon" style="width: 128px; height:128; position: absolute; bottom: 0;">
+    </div>
+    <div class="container">
+	<div class="screen">
+		<p id="display"></p><p id="error" class="error"></p>
+		<script src= "calculator.js"></script>
+	</div>
+<br/> 
+	<table>
+		<tbody>
+			<tr>
+				<td><input type="button" value="7" class="numberbutton" onClick="getnumber('7')" /></td>
+				<td><input type="button" value="8" class="numberbutton"  onclick="getnumber('8')" /></td>
+				<td><input type="button" value="9" class="numberbutton"  onclick="getnumber('9')" /></td>
+				<td><input type="button" value =&plus; class="operationbutton" onClick="operation('+')" /></td></tr>
+			<tr><td><input type="button" value="4" class="numberbutton"  onclick="getnumber('4')"/></td>
+				<td><input type="button" value="5" class="numberbutton"  onclick="getnumber('5')"/></td>
+				<td><input type="button" value="6" class="numberbutton"  onclick="getnumber('6')"/></td>
+				<td><input type="button" value=&minus; class="operationbutton" onClick="operation('-')" /></td></tr>
+			<tr><td><input type="button" value="1" class="numberbutton"  onclick="getnumber('1')" /></td>
+				<td><input type="button" value="2" class="numberbutton"  onclick="getnumber('2')" /></td>
+				<td><input type="button" value="3" class="numberbutton"  onclick="getnumber('3')" /></td>
+				<td><input type="button" value=&times; class="operationbutton" onClick="operation('*')" /></td></tr>
+				<tr><td></td>
+				<td><input type="button" value="0" class="numberbutton"  onclick="getnumber('0')" /></td>
+				<td><input type="button" value=&equals; class="operationbutton" onClick="operation('=')" /></td>
+				<td><input type="button" value=&divide; class="operationbutton" onClick="operation('/')" /></td></tr>
+			</tbody>
+	</table>
+</div>
+<br/>
+<footer>
+    <p>&copy; 2015 This Calculator is designed and developed by Holly (Xinran) Li. All rights reserved.</p><p>Pittsburgh, PA 15217</p>  
+</footer>	
+</body>
+</html>
