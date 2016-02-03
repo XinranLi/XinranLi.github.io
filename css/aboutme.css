@@ -7,11 +7,29 @@
 div img #slogo{
     top: 0px;
     right: 20px;
-	z-index: -1;
 	float: right;
 	margin-right:5px;
 }
 
+.school {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+.work {
+    float: right;
+    width: 100px;
+    height: 130px;
+}
+
+.courses {
+    color: #ac987d;
+    line-height: 1.5em;
+    list-style: square;
+    padding-left: 2em;
+    font-size: 14px;
+}
 
 #me{
     position: fixed;
@@ -22,8 +40,35 @@ div img #slogo{
     font-size: 25;
 }
 
+ul {
+    list-style: none;
+    padding-left:0;
+}
+
 #bottom{
 	clear:both;
 	font-family: Garamond;
 	
+}
+
+.tag.big {
+    margin: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #fbe9d8;
+    border: 1px solid #e0c7af;
+    border-top: 1px solid #fff7ef;
+    border-left: 1px solid #fff7ef;
+}
+.tag {
+    color: 6e93a9;
+    border: 1px solid #629cbd;
+    display: inline-block;
+    padding: 0.5em;
+    background-color: #90c0dc;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin: 2px;
+    border-top: 1px solid #b7dcf1;
+    border-left: 1px solid #b7dcf1;
 }
