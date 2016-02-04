@@ -1,6 +1,7 @@
 .bodycontainer {
     width: 100%;
     margin: 3em;
+    font-size: 16px;
 }
 
 .projcontainer {
@@ -17,8 +18,15 @@
     background-color: #c09471 !important;
 }
 
+.back {
+    padding: 1em;
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
 
-a {
+footer a {
     color: cornsilk;
 }
 
@@ -65,19 +73,22 @@ ul {
 }
 
 footer{
-    background-color: dimgrey;
+    -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.7);
+    -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.7);
+    -o-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.7);
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.7);
     text-align:center;
     margin: auto;
     padding: 30px;
     color: cornsilk;
     width: 100%;
     z-index: 999;
-background-color: #dcac6a;
-background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 90%),
-linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
-linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
-linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
-background-size: 13px, 29px, 37px, 53px;
+    background-color: #dcac6a;
+    background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 90%),
+    linear-gradient(90deg, rgba(255,255,255,.13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255,255,255,.19) 50%);
+    background-size: 13px, 29px, 37px, 53px;
 }
 
 body {
