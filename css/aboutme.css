@@ -4,6 +4,15 @@
     column-count: 2;
 }
 
+.intro {
+    line-height: 1.2em; 
+    text-align: justify;
+}
+
+.caption {
+    position: absolute;
+}
+
 div img #slogo{
     top: 0px;
     right: 20px;
