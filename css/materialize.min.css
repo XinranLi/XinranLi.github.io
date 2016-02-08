@@ -814,7 +814,9 @@
   color: #1de9b6 !important; }
 
 .teal.accent-4 {
-  background-color: #00bfa5 !important; }
+  background-color: #00bfa5 !important; 
+        overflow: hidden;
+}
 
 .teal-text.text-accent-4 {
   color: #00bfa5 !important; }

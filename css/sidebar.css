@@ -101,12 +101,7 @@ body {
 h3{
 	color:#2883B0;
 }
-.bottom{
-	left: 10px;
-	bottom: 10px;
-	font-size: 13px;
-	color: #70a19f;
-}
+
 .header{
 	transform: translate3d(0,0,0);
 }

@@ -14,6 +14,9 @@ body {
 	bottom: 0px;
 }
 
+nav a:hover {
+    text-decoration: none;
+}
 
 .imgleft{
     position: fixed;
@@ -86,8 +89,8 @@ body {
 .speech {
 	position: fixed;
 	width: 200px;
-    left: 8%;
-    top: 15%;
+	left: 180px;
+	bottom: 400px;
 	text-align: center;
 	line-height: 100px;
 	background-color: #fffcd5;
@@ -104,9 +107,9 @@ body {
 {
 	content: ' ';
 	position: absolute;
-	width: 0;
+	width: ;
 	height: 0;
-	left: 45%;
+	left: 90px;
 	top: 100px;
 	border: 18px solid;
 	border-color: #b39b6c transparent transparent #b39b6c;
@@ -119,7 +122,7 @@ body {
 	position: absolute;
 	width: 0;
 	height: 0;
-	left: 45%;
+	left: 90px;
 	top: 100px;
 	border: 17px solid;
 	border-color: #fffcd5 transparent transparent #fffcd5;
@@ -253,14 +256,14 @@ footer{
 
 /*pad*/
 @media screen and (max-width: 768px) {   
-    .imgleft, .imgright {
+    .imgleft, .imgright, .speech {
         display: none;
     }
 }
 
 /*mobile*/
 @media screen and (max-width: 600px) {
-    .imgleft, .imgright, #logo { display: none;}
+    .imgleft, .imgright, .speech, #logo { display: none;}
     #logos {
         display: block;
         text-align: center;

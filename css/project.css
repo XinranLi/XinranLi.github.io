@@ -16,6 +16,7 @@
 
 .navcol {
     background-color: #c09471 !important;
+    overflow: hidden;
 }
 
 .back {
@@ -32,6 +33,7 @@ footer a {
 
 .proj a{
     color: darkred;
+    text-decoration: underline;
 }
 
 .proj a:hover {
@@ -64,12 +66,19 @@ ul {
     float: right;
 }
 
+h4 {
+    font-size: 14px;
+    color: darkgoldenrod;
+    line-height: 1em;
+}
+
 .tag {
     padding: 0.3em;
     background-color: #f2f066;
     opacity: 0.7;
     border-radius: 5px;
     margin: 2px;
+    line-height:2.5em;
 }
 
 footer{

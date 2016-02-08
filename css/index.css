@@ -210,14 +210,19 @@ footer .col {
         display: inline-block;
     }
 
+.cvhead {
+    position: fixed; bottom: 0px;right: 0px;
+    align:right;
+}
+
 /*pad*/
 @media screen and (max-width: 768px) {   
-    #cvlink {
+    #cvlink, .cvhead {
         display: none;
     }
 }
 
 /*mobile*/
 @media screen and (max-width: 600px) {
-    #cvlink { display: none;}
+    #cvlink, .cvhead { display: none;}
 }
