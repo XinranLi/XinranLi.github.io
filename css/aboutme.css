@@ -20,6 +20,10 @@ div img #slogo{
 	margin-right:5px;
 }
 
+.bluedash {
+    border-bottom: 1px dashed #05c;
+    color: #05c;
+}
 .school {
     float: right;
     width: 100px;
