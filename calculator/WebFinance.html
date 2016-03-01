@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DEMOSTARTER</title>
+    </head>
+    <body>
+        <script>
+            var i;
+            var d = new Date();
+            for (i = 1; i<= 100; i++) {
+                if (i % 15 === 0) {
+                    console.log(d.getMonth());
+                } else if (i % 5 == 0) {
+                    console.log("buzz");
+                } else if (i % 3 == 0) {
+                    console.log("fizz");
+                } else {
+                    console.log(i);
+                }
+            }
+        </script>
+    </body> 
+</html>
