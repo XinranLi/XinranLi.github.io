@@ -12,6 +12,7 @@ body {
     position: fixed;
 	right: 20px;
 	bottom: 0px;
+    z-index: 99;
 }
 
 nav a:hover {
@@ -22,6 +23,7 @@ nav a:hover {
     position: fixed;
 	left: 0px;
 	bottom: 0px;
+    z-index: 99;
 }
 
 .banner {
@@ -133,6 +135,8 @@ nav a:hover {
 }
 
 footer{
+    position: absolute;
+    bottom: 0;
     text-align:center;
     margin: auto;
     padding: 1em;
