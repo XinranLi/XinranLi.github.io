@@ -88,6 +88,22 @@ body {
     top: 600px;
 }
 
+.dis{
+    font-size: 1em;
+    margin: 1em;
+    margin-top: 10%;
+    line-height: 200%;
+    width: 100%;
+    color: white;
+    display:block;
+    text-align: left;
+    font-size: 20px;
+}
+.key{
+    border: 2px solid #fff;
+    padding: 0.2em;
+}
+
 .works {
     margin-top: 2em;
     display: inline-block;
@@ -165,6 +181,7 @@ form {
 }
 
 .right {
+    overflow: scroll;
     width: 35%;
     height: 700px;
     float: right;
