@@ -17,7 +17,7 @@
         <div id="light" class="white_content">
             <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><span class="close-btn">X</span></a>
             <h2>Sign up and join JigDraw today!</h2>
-        <form class="signupform" action="index.html">
+        <form class="signupform">
         <fieldset>
         <label for="field0"><span>Username <span class="required">*</span></span><input type="text" required class="input-field" name="field0" value="" /></label>
         <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
@@ -37,7 +37,7 @@
         <fieldset>
         <label for="field0"><span>Username <span class="required">*</span></span><input type="text" required class="input-field" name="field0" value="" /></label>
         <label for="field4"><span>Password <span class="required">*</span></span><input type="password" required class="input-field" name="field4" value="" /></label>
-        <input class="signsubmit" type="submit" value="Log In" />
+            <div><a class="signsubmit" style= "width: 100px"href="index.html">Log In</a></div>
         </fieldset>
             <p style="float:right">Please <a href = "javascript:void(0)" onclick = "document.getElementById('logindiv').style.display='none';document.getElementById('fade').style.display='none'; document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" class="wordlink">register</a> first if you don't have an account.</p>
             
@@ -48,7 +48,7 @@
         <div id="resetdiv" class="white_content">
             <a href = "javascript:void(0)" onclick = "document.getElementById('resetdiv').style.display='none';document.getElementById('fade').style.display='none'"><span class="close-btn">X</span></a>
             <h2>Reset your password</h2>
-        <form class="signupform" action="index.html">
+        <form class="signupform">
         <fieldset>
         <label for="field0"><span>Username <span class="required">*</span></span><input type="text" required class="input-field" name="field0" value="" /></label>
         <label for="field4"><span>New password <span class="required">*</span></span><input type="password" required class="input-field" name="field4" value="" /></label>
@@ -98,11 +98,11 @@
         <div class="column">
             <h1>Collage Drawing Now!</h1>
 <div class="form-style-8">
-  <form action="index.html">
+  <form>
     <input type="text" name="usr" required placeholder="Username" />
     <input type="password" name="pwd" required placeholder="Password" />
       <br/>
-      <input type="submit" value="Log in" >
+      <div class="sign"><a href="index.html">Log in</a></div>
       <div class="sign"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Sign Up</a></div>
   </form>
 </div>
