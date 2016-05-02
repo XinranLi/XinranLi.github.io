@@ -24,14 +24,27 @@ a {
     background-color: #F06868;
 }
 
+.collection{
+    margin: 1em auto;
+    overflow: scroll;
+    height: 50%;
+}
+
 .container a {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
 
 }
+.collectbox{
+    margin: 1em auto;
+    font-size: 13px;
+    padding: 0.5em;
+}
 
-
+.collect{
+    width: 50%;
+}
 .left {
     padding: 1em;
     float: left;

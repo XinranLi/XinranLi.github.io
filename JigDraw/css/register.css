@@ -137,7 +137,9 @@ a {
 
 #start {
     padding: 0.4em; 
-    border: 2px solid #fff;
+    border-radius: 0.5em;
+    border: 3px solid #fff;
+    color: #80D6FF;
     width: 12em;
     text-align: center;
     vertical-align: middle;
@@ -145,15 +147,12 @@ a {
     margin: 1em auto;
 }
 
-.tit:hover {
-    background: #fff;
-    color: #80D6FF;
-}
 
 #centerbox {
     text-align: center;
-    margin: auto;
+    margin: 2em auto;
     padding: 1em;
+    line-height: 2em;
     font-size: 20px;
 }
 
