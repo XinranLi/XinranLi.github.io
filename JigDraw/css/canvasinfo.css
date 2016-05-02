@@ -1,44 +1,14 @@
 body {
     background: lightgray;
-    overflow: hidden;
+    overflow: scroll;
+    background-image: linear-gradient(#efefef 2px, transparent 2px),
+    linear-gradient(90deg, #efefef 2px, transparent 2px),
+    linear-gradient(rgba(225,235,235,.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(225,235,235,.5) 1px, transparent 1px);
+    background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
-#topcontainer {
-    height: 64px;
-    width: 100%;
-    position: fixed;
-    background: #80D6FF;
-}
-
-#topcontainerimgs {
-    height: 100%;
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#lefticon {
-    height: 36px;
-    width: auto;
-    display: inline-block; 
-    float: left;
-    padding: 14px;
-}
-
-#logo {
-    height: 50px;
-    width: auto;
-    display: inline-block;
-    padding: 6px;
-}
-
-#profilename {
-    height: 36px;
-    width: auto;
-    display: inline-block;
-    float: right;
-    padding: 14px;
-}
 
 .canvas {
     position: absolute;
@@ -276,4 +246,89 @@ red {
 orange {
     font-weight: bolder;
     color: #fab57a;
+}
+.wholecanvas {
+    position: absolute;
+    left: 360px;
+    background: #fff;
+    margin-top: 98px;
+    width: 810px;
+    height: 500px;
+    z-index: 999;
+    float: right;
+    border: 3px solid #eee;
+}
+
+.pencilCursor {
+    cursor:url('../picture/tool_icons/pencil.svg') 0 30,default;
+}
+
+.brushCursor {
+cursor:url('../picture/tool_icons/brush.svg') 0 23,default;
+}
+
+.penCursor {
+    cursor:url('../picture/tool_icons/pen.svg') 0 28,default;
+}
+
+.eraCursor {
+    cursor:url('../picture/tool_icons/eraser.svg') 8 20,default;
+}
+
+.bucketCursor {
+    cursor:url('../picture/tool_icons/bucket.svg') 24 28,default;
+}
+
+
+.wholecanvas:after {
+  content: "";
+  display: block;
+}
+
+.canvascontainer {
+    position: relative;
+}
+
+#canvasDiv {
+    position: absolute;
+    width: 270px;
+    height: 500px;
+    border: 3px solid #80D6FF;
+}
+
+.invite {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 99px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canvas2 {
+    opacity: 0.3;
+    position: absolute;
+    left: 270px;
+    width: 270px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #80D6FF;
+    border: 3px solid #fefefe;
+    box-sizing: border-box;
+}
+
+.canvas3 {
+    opacity: 0.3;
+    position: absolute;
+    left: 540px;
+    width: 270px;
+    height: 500px;
+    background-color: #80D6FF;
+    border: 3px solid #fefefe;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

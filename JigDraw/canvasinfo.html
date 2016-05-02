@@ -4,26 +4,47 @@
         <title>JigDraw</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/canvasinfo.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div id="topcontainer">
             <div id="topcontainerimgs">
+<!--
                 <a href="index.html">
-                    <img id="lefticon" src="picture/home icon.svg">
+                    <img id="lefticon" src="picture/home%20icon.svg">
                 </a>
+-->
                 
                 <a href="index.html">
-                    <img id="logo" src="picture/new logo.svg">
+                    <img id="logo" src="picture/new%20logo.svg">
                 </a>
                 
-                <img id="lefticon" src="picture/friendsicon.svg">
+<!--                <img id="lefticon" src="picture/friendsicon.svg">-->
                 
                 <a href="profile.html">
-                    <img id="profilename" src="picture/profilename.svg">
+                    <div id="profilename">
+                        <img src="picture/profilename.svg">
+                        <p>Albert</p>
+                        
+                        <div class="speech-bubble">
+                                <a href="friends.html">Friends</a>
+                                <br>
+                                <a href="message.html">Message (3)</a>
+                                <br>
+                                <a href="about.html">Help</a>
+                                <br>
+                                <a href="login.html">Sign Out</a>
+                            
+                            <div class="arrow bottom">
+                            </div>
+                        </div>
+                    </div>
                 </a>
+                
+                
             </div>
-        </div>
+        </div> 
     
         <div class="left">
             <div id="canvasinfo">
@@ -91,28 +112,13 @@
             </div>
         </div>
         
-        <div id="chatbox">
-            <blue>Albert&#58;</blue> what's up?
-            <br>
-            <red>Holly&#58;</red> what should i draw?
-            <br>
-            <orange>Chang&#58;</orange> red scribbles!
-            
-            <div id="messagebox">
-                <form>
-                    <input type="text" name="messagebox" value="Type a message here...">
-                    <a href="canvaschatbox.html">
-                        <img src="picture/chatbox open button.svg">
-                    </a>
-                </form>
-                
-                
+        <div class="canvascontainer">        
+            <div class="wholecanvas">
+                <div class="pencilCursor" id="canvasDiv"></div>
+                    <div class="canvas2"><div class="invite">+</div><p>Invite Friend</p></div>
+                    <div class="canvas3"><div class="invite">+</div><p>Invite Friend</p></div>
+                </div>
             </div>
-        </div>
-        
-        <div class="canvas">
-            <img src="picture/dividedcanvas.svg">
-        </div>
     </body>
     
 </html>
