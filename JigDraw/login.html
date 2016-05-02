@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JigDraw</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+		<script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+    </head>
+    <body>
+        <div id="light" class="white_content">
+            <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><span class="close-btn">X</span></a>
+            <h2>Sign up and join JigDraw today!</h2>
+        <form class="signupform" action="index.html" method="post">
+        <fieldset>
+        <label for="field0"><span>Username <span class="required">*</span></span><input type="text" required class="input-field" name="field0" value="" /></label>
+        <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+        <label for="field2"><span>Email <span class="required">*</span></span><input type="email" required class="input-field" name="field2" value="" /></label>
+        <label for="field4"><span>Password <span class="required">*</span></span><input type="password" required class="input-field" name="field4" value="" /></label>
+        <label for="field5"><span>Confirm Password <span class="required">*</span></span><input type="password" required class="input-field" name="field5" value="" /></label>
+        <input class="signsubmit" type="submit" value="Sign Up" /><p style="font-size: 11px; float:right">Already have an account? <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'; document.getElementById('logindiv').style.display='block';document.getElementById('fade').style.display='block'" class="wordlink">Log in</a> now.</p>
+        </fieldset>
+        </form>
+        </div>
+        
+        <div id="logindiv" class="white_content">
+            <a href = "javascript:void(0)" onclick = "document.getElementById('logindiv').style.display='none';document.getElementById('fade').style.display='none'"><span class="close-btn">X</span></a>
+            <h2>We love to see you back!</h2>
+        <form class="signupform" action="index.html" method="post">
+            <p style="margin:1em; text-align:center">Please log into your JigDraw account</p>
+        <fieldset>
+        <label for="field0"><span>Username <span class="required">*</span></span><input type="text" required class="input-field" name="field0" value="" /></label>
+        <label for="field4"><span>Password <span class="required">*</span></span><input type="password" required class="input-field" name="field4" value="" /></label>
+        <input class="signsubmit" type="submit" value="Log In" />
+        </fieldset>
+            <p style="float:right">Please <a href = "javascript:void(0)" onclick = "document.getElementById('logindiv').style.display='none';document.getElementById('fade').style.display='none'; document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" class="wordlink">register</a> first if you don't have an account.</p>
+            
+            <p style="font-size: 11px; float:right">Forget your password? Don't worry we can help you <a href = "javascript:void(0)" onclick = "document.getElementById('logindiv').style.display='none';document.getElementById('fade').style.display='none'; document.getElementById('resetdiv').style.display='block';document.getElementById('fade').style.display='block'" class="wordlink">reset password</a> here.</p>
+        </form>
+        </div>
+        
+        <div id="resetdiv" class="white_content">
+            <a href = "javascript:void(0)" onclick = "document.getElementById('resetdiv').style.display='none';document.getElementById('fade').style.display='none'"><span class="close-btn">X</span></a>
+            <h2>Reset your password</h2>
+        <form class="signupform" action="index.html" method="post">
+        <fieldset>
+        <label for="field0"><span>Username <span class="required">*</span></span><input type="text" required class="input-field" name="field0" value="" /></label>
+        <label for="field4"><span>New password <span class="required">*</span></span><input type="password" required class="input-field" name="field4" value="" /></label>
+        <label for="field4"><span>Confirm password <span class="required">*</span></span><input type="password" required class="input-field" name="field4" value="" /></label>
+        <input class="signsubmit" type="submit" value="Reset" />
+        </fieldset>
+        </form>
+        </div>
+        
+        <div id="fade" class="black_overlay"></div>
+        
+   
+        <div class="bg">
+            <div>
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
+    <path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M323.5,308.5c-6.8-15.3-17.1-36.9-17.1-36.9
+        l-39.2,18.9c0,0-10.6,2.1-8-8.6s-0.9-18.3-4.4-22.1s-12.4-13.7-29.6-4.1s-16.9,22.8-16.9,22.8s-0.9,8.7,7,16.2
+        c8,7.5,12.2,8.2,4.7,15.5c-7.5,7.3-45.5,22.3-45.5,22.3l22.3,45.8c0,0,1.2,6.8-9.4,8.4c-10.6,1.6-21.4-0.9-23.7,18.3
+        c-2.3,19.2,17.4,30,17.4,30s8.7,4.5,14.1,2.6c5.4-1.9,7.5-9.6,7.5-9.6s6.1-9.2,12.9-1.4l18.5,39l40.1-17.6"/>
+    <ellipse fill="#FFFFFF" cx="323.6" cy="308.7" rx="4.9" ry="5.1"/>
+    <ellipse fill="#FFFFFF" cx="273.8" cy="448.2" rx="4.8" ry="5"/>
+    <text transform="matrix(1 0 0 1 230.4371 393.9541)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" font-family="'Quicksand'" font-weight="700" font-size="61.9622">JIGDRAW</text>
+    <path fill="none" stroke="#80CDF2" stroke-width="10" stroke-miterlimit="10" d="M318.8,307.4"/>
+    </svg>
+                <div class="htitle"><h1>An online collabrative platform</h1><h1>that let you collage your drawing with friends.</h1>
+                    <div class="try"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Try now</a></div>
+            </div>
+        </div>        
+        <!--Control Bar-->
+	<div id="controls-wrapper" class="load-item">
+		<div id="controls">
+		
+			<!--Slide counter-->
+			<div id="slidecounter">
+				<span class="slidenumber"></span><span class="totalslides"></span>
+			</div>
+			
+			<!--Slide captions displayed here-->
+			<div id="slidecaption"></div>
+			<!--Navigation-->
+			<ul id="slide-list"></ul>
+		</div>
+	</div>    
+            
+        </div>   
+        <div class="column">
+            <h1>Collage Drawing Now!</h1>
+<div class="form-style-8">
+  <form action="index.html" method="post">
+    <input type="text" name="usr" required placeholder="Username" />
+    <input type="password" name="pwd" required placeholder="Password" />
+      <br/>
+      <input type="submit" value="Log in" >
+      <div class="sign"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Sign Up</a></div>
+  </form>
+</div>
+        </div>
+        
+        <p id="copy">Copyright&copy; 2016 JigDraw. All Rights Reserved.</p>
+    </body>
+    
+</html>

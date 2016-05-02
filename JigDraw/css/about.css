@@ -1,0 +1,293 @@
+.body {
+    background: #f2f2f2;
+}
+body {
+    background-color:#f9f9f9;
+    background-image: linear-gradient(#c7f4ff 2px, transparent 2px),
+    linear-gradient(90deg, #c7f4ff 2px, transparent 2px),
+    linear-gradient(rgba(215,245,245,.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(215,245,245,.5) 1px, transparent 1px);
+    background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+
+.container {
+    margin: 2em;
+    margin-top: 100px;
+    padding: 2.5vh;
+    box-sizing: border-box;
+    height: 730px;
+    background-color: #80D6FF;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+
+.left {
+    padding: 1em;
+    float: left;
+    width: 55.8%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    height: 100hv;
+    overflow: scroll;
+}
+
+#recent {
+    top: 500px;
+    margin-bottom: 10%;
+}
+
+.one img {
+    width: 30%;
+    float: right;
+    display: inline;
+}
+
+.if {
+        width: 30%;
+    float: right;
+    display: inline;
+
+}
+.if span {
+    color: white;
+    display: inline-block;
+    font-size: 8px;
+
+}
+
+.if a:hover {
+     border-bottom: 1px solid white;
+}
+
+.if img {
+    width: 100%;
+}
+.workone {
+    width: 30%;
+    display: inline-block;
+}
+.worktwo {
+    width: 30%;
+    display: inline-block;
+}
+.workthree {
+    width: 30%;
+    display: inline-block;
+}
+
+
+.line {
+    margin-top: 5em;
+    top: 600px;
+}
+
+.works {
+    margin-top: 2em;
+    display: inline-block;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+font-size: 12px;
+    border-top: 1px solid white;
+    padding-top: 10%;
+ 
+}
+.works img {
+    width: 50%;
+}
+
+.line {
+    display: inline;
+}
+
+form {
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    font: 13px Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    position: absolute;
+    top: 3em;
+    left: 3em;
+    width: 50%;
+    height: 50%;
+    z-index: 999999999;
+}
+
+.create {
+    width: 100%;
+    margin-bottom: 0;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.information{
+    font-size: 1em;
+    margin: 1em;
+    margin-top: 10%;
+    line-height: 200%;
+    width: 100%;
+    color: white;
+    display:block;
+    text-align: left;
+    
+}
+
+.cutcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 20px auto;
+}
+
+.cut {
+    width: 72px;
+    height: 72px;
+    background: #999;
+    margin: 9px;    
+}
+
+.paddle {
+    background: #fff;
+    width: 95%;
+    height: 300px;
+    flex-wrap: wrap;
+    margin: 1em auto;
+}
+
+.right {
+    width: 35%;
+    height: 700px;
+    float: right;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    background: #FFE980;
+}
+
+#friends {
+    top: 2em;
+    margin-bottom: 10%;
+}
+
+
+.tit {padding: 0.4em; border: 2px solid #fff}
+
+.tit:hover {
+    background: #fff;
+    color: #FFE980;
+}
+
+#create:hover{
+    color:#80D6FF !important;
+}
+
+
+#my {
+    margin-top: 10%;
+}
+
+
+
+.righticon {
+height: 40px;
+    display: inline;
+}
+
+.friends p{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.friends {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lalala {
+  margin-top: 10%;  
+
+}
+
+.lalala a:hover{
+    color: #80D6FF;
+}
+    
+.ff {
+    margin-bottom: 10%;
+}
+
+.title {
+    margin: 1em;
+}
+
+@media screen and (max-width: 600px) { 
+    .container a {
+    font-size: 12px;
+}
+    .friends p {
+        font-size: 12px;
+    
+    }
+    .righticon {
+height: 20px;
+    display: inline;
+}
+    .information p {
+        font-size: 12px;
+    margin-right: 10%;}
+    .friends {
+        margin-bottom: 0.5em;}
+}
+
+@media screen and (max-width: 500px) { 
+    .container {
+        height: auto;
+        
+    }
+    .left {
+        width: auto;
+        background-color: none;
+    }
+    .right {
+        width: 100%;
+        float: none;
+        display: inline-block;
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .container a {
+    font-size: 12px;
+}
+    .friends p {
+        font-size: 12px;
+    
+    }
+    .righticon {
+height: 20px;
+    display: inline;
+}
+    .information p {
+        font-size: 12px;
+    margin-right: 10%;}
+    .friends {
+        margin-bottom: 0.5em;}
+}
+    
+
+
+    

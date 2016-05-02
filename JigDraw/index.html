@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JigDraw</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <!--<div class="logo">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 720 720" enable-background="new 0 0 720 720" xml:space="preserve">
+    <path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M323.5,308.5c-6.8-15.3-17.1-36.9-17.1-36.9
+        l-39.2,18.9c0,0-10.6,2.1-8-8.6s-0.9-18.3-4.4-22.1s-12.4-13.7-29.6-4.1s-16.9,22.8-16.9,22.8s-0.9,8.7,7,16.2
+        c8,7.5,12.2,8.2,4.7,15.5c-7.5,7.3-45.5,22.3-45.5,22.3l22.3,45.8c0,0,1.2,6.8-9.4,8.4c-10.6,1.6-21.4-0.9-23.7,18.3
+        c-2.3,19.2,17.4,30,17.4,30s8.7,4.5,14.1,2.6c5.4-1.9,7.5-9.6,7.5-9.6s6.1-9.2,12.9-1.4l18.5,39l40.1-17.6"/>
+    <ellipse fill="#FFFFFF" cx="323.6" cy="308.7" rx="4.9" ry="5.1"/>
+    <ellipse fill="#FFFFFF" cx="273.8" cy="448.2" rx="4.8" ry="5"/>
+    <text transform="matrix(1 0 0 1 230.4371 393.9541)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" font-family="'QuicksandBold-Regular'" font-size="61.9622">JIGDRAW</text>
+    <path fill="none" stroke="#80CDF2" stroke-width="10" stroke-miterlimit="10" d="M318.8,307.4"/>
+    </svg>
+        </div>-->
+<div id="topcontainer">
+            <div id="topcontainerimgs">
+<!--
+                <a href="index.html">
+                    <img id="lefticon" src="picture/home%20icon.svg">
+                </a>
+-->
+                
+                <a href="index.html">
+                    <img id="logo" src="picture/new%20logo.svg">
+                </a>
+                
+<!--                <img id="lefticon" src="picture/friendsicon.svg">-->
+                
+                <a href="profile.html">
+                    <div id="profilename">
+                        <img src="picture/profilename.svg">
+                        <p>Albert</p>
+                        
+                        <div class="speech-bubble">
+                                <a href="friends.html">Friends</a>
+                                <br>
+                                <a href="message.html">Message (3)</a>
+                                <br>
+                                <a href="about.html">Help</a>
+                                <br>
+                                <a href="login.html">Sign Out</a>
+                            
+                            <div class="arrow bottom">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                
+            </div>
+        </div> 
+        
+        
+        <div class="bigcontainer">
+            
+            
+            
+            
+        <div class="left">        
+             <div class="cra"><a href="#" class="tit" id="create">Create</a>
+            <p>Click a template below to get started!</p>    
+                 
+            <div id="light" class="white_content"> 
+                <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><span class="close-btn">X</span></a>
+                <h2>Getting started</h2>
+            <form class="signupform" action="canvas.html" method="post">
+            <fieldset>
+                <label>Canvas size:&nbsp;&nbsp;<select name="canvassize" class="styled-select">
+                <option value="0">100x200</option>
+                <option value="1">300x300</option>
+                <option value="2">512x512</option>
+                <option value="3">600x900</option>
+                <option value="4">900x900</option>
+                <option value="5">1024x900</option>    
+                <option value="6">1000x200</option>       
+                </select></label>
+                <a href="canvas.html"><input class="signsubmit" type="submit" value="Start Drawing!" /></a>
+            </fieldset>
+            </form>
+            </div>
+                 
+            <div class="paddle">    
+                
+                <div class="cutcontainer">
+                    
+                <div class="cut">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        <img src="picture/canvas_divisions/canvasdivision1.svg">
+                    </a>
+                </div> 
+                <div class="cut">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        <img src="picture/canvas_divisions/canvasdivision2.svg">
+                    </a>
+                </div>
+                <div class="cut">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        <img src="picture/canvas_divisions/canvasdivision3.svg">
+                    </a>
+                </div>
+                <div class="cut">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        <img src="picture/canvas_divisions/canvasdivision4.svg">
+                    </a>
+                </div>
+                <div class="cut">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        <img src="picture/canvas_divisions/canvasdivision5.svg">
+                    </a>
+                </div> 
+                <div class="cut">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        <img src="picture/canvas_divisions/canvasdivision6.svg">
+                    </a>
+                </div>
+                <div class="cut">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        <img src="picture/canvas_divisions/canvasdivision7.svg">
+                    </a>
+                </div>
+                <div class="cut">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                        <img src="picture/canvas_divisions/canvasdivision8.svg">
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+            
+            
+            
+            
+            <div class="gall"><a href="gallery/share.html" class="tit" id="gallery">Gallery</a>
+            <p>View completed drawings or join an unfinished one!</p>
+            </div>
+            
+            
+            <div class="prof"><a href="profile.html" class="tit" id="profile">Profile</a>
+            <p>Edit your info and view your friends list!</p>
+            </div>  
+            </div>    
+        
+        <div class="right">    
+            <div class="cratwo"><a href="#" class="tit" id="save">Saved Works</a>  </div>  
+          <div class="paddletwo">
+                
+                
+                <div class="cutcontainertwo">
+                    
+                    
+                <div class="cuttwo"><img src="picture/canvas_divisions/savedworks1.svg"></div>
+                <p>Scribbles</p>
+                <div class="cuttwo"><img src="picture/canvas_divisions/savedworks1.svg"></div>
+                    <p>Scribbles</p>
+                    <div class="cuttwo"><img src="picture/canvas_divisions/savedworks1.svg"></div>
+                    <p>Scribbles</p>
+                    <div class="cuttwo"><img src="picture/canvas_divisions/savedworks1.svg"></div>
+                    <p>Scribbles</p>
+                    <div class="cuttwo"><img src="picture/canvas_divisions/savedworks1.svg"></div>
+                    <p>Scribbles</p>
+                    <div class="cuttwo"><img src="picture/canvas_divisions/savedworks1.svg"></div>
+                    <p>Scribbles</p>
+                    <div class="cuttwo"><img src="picture/canvas_divisions/savedworks1.svg"></div>
+                    <p>Scribbles</p>
+                    
+                    
+                    
+                </div>
+            </div>
+            
+        </div> 
+      
+        </div>
+        
+        <footer id="copy">
+            Copyright&copy; 2016 JigDraw. All Rights Reserved. | <a href="about.html" id="about">About Us</a>
+        </footer>
+    </body>
+</html>

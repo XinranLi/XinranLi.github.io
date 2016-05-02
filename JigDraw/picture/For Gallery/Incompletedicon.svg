@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 96.6 400.9" enable-background="new 0 0 96.6 400.9" xml:space="preserve">
+<g id="图层_1" display="none">
+	<path display="inline" fill="#E36665" d="M-313.9-194.4c0,0,10.3,12.4,18.5,13.4c8.2,1,13.4,5.1,13.4,16.5c0,11.3,0,99.9,0,99.9
+		h-31.9"/>
+	<path display="inline" fill="#E36665" d="M-313.9,65.1c0,0,10.3-12.4,18.5-13.4c8.2-1,13.4-5.1,13.4-16.5s0-99.9,0-99.9h-31.9"/>
+	<text transform="matrix(1 0 0 1 -298.1887 -129.5033)" display="inline" writing-mode="tb"><tspan x="0" y="0" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="13.6057" glyph-orientation-vertical="0">COMPLITED</tspan><tspan x="0" y="122.5" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="13.6057" glyph-orientation-vertical="1"> </tspan></text>
+</g>
+<g id="图层_3">
+	<path fill="#F3B179" d="M35.1,49.4c0,0,10.3,12.4,18.5,13.4S67,67.9,67,79.2s0,99.9,0,99.9H35.1"/>
+	<path fill="#F3B179" d="M35.1,171.1H67c0,0,0,88.6,0,99.9c0,11.3-5.1,15.4-13.4,16.5s-18.5,13.4-18.5,13.4"/>
+	<text transform="matrix(1 0 0 1 51.0777 104.3435)" writing-mode="tb"><tspan x="0" y="0" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="12" glyph-orientation-vertical="0">INCOMPLITED</tspan><tspan x="0" y="132" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="12" glyph-orientation-vertical="1"> </tspan></text>
+	<line fill="#F3B179" x1="67" y1="179.1" x2="67" y2="219.1"/>
+</g>
+<g id="图层_2" display="none">
+	<path display="inline" fill="#F7E380" d="M35.1,69.8c0,0,10.3,12.4,18.5,13.4S67,88.3,67,99.6s0,99.9,0,99.9H35.1"/>
+	<path display="inline" fill="#F7E380" d="M35.1,281.1c0,0,10.3-12.4,18.5-13.4S67,262.6,67,251.2s0-99.9,0-99.9H35.1"/>
+	<text transform="matrix(1 0 0 1 51.0777 130.1654)" display="inline" writing-mode="tb"><tspan x="0" y="0" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="12" glyph-orientation-vertical="0">COMBINED</tspan><tspan x="0" y="96" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="12" glyph-orientation-vertical="1"> </tspan></text>
+</g>
+</svg>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JigDraw</title>
+        <link rel="icon" type="image/png" href="picture/bluelogopattern.png">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/canvas.css">
+         <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+<div id="topcontainer">
+            <div id="topcontainerimgs">
+<!--
+                <a href="index.html">
+                    <img id="lefticon" src="picture/home%20icon.svg">
+                </a>
+-->
+                
+                <a href="index.html">
+                    <img id="logo" src="picture/new%20logo.svg">
+                </a>
+                
+<!--                <img id="lefticon" src="picture/friendsicon.svg">-->
+                
+                <a href="profile.html">
+                    <div id="profilename">
+                        <img src="picture/profilename.svg">
+                        <p>Albert</p>
+                        
+                        <div class="speech-bubble">
+                                <a href="friends.html">Friends</a>
+                                <br>
+                                <a href="message.html">Message (3)</a>
+                                <br>
+                                <a href="about.html">Help</a>
+                                <br>
+                                <a href="login.html">Sign Out</a>
+                            
+                            <div class="arrow bottom">
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                
+                
+            </div>
+        </div> 
+            <div class="chathide" id="hide">
+        <h1><span><img width="23px" src="picture/friendsicon.svg">&nbsp;Chat with friends</span><span style="float:right">&#9662;</span></h1>    
+    </div>
+    <div class="chatbox" id="chat">
+        <h1 id="chattitle"><span><img width="23px" src="picture/friendsicon.svg">&nbsp;Chat with friends</span><span style="float:right">&#9662;</span></h1>
+        <div class="chatcontent">
+        <div class="chatleft">
+            <ul class="friendlist">
+                <li class="friendname selfri" id="f1"><img src="picture/profilename.svg" width="15px">&nbsp;Holly</li>
+                <li class="friendname" id="f2"><img src="picture/profilename.svg" width="15px">&nbsp;Helen</li>
+                <li class="friendname" id="f3"><img src="picture/profilename.svg" width="15px">&nbsp;Alex</li>
+                <li class="friendname" id="f4"><img src="picture/profilename.svg" width="15px">&nbsp;Amy</li>
+                <li class="friendname" id="f5"><img src="picture/profilename.svg" width="15px">&nbsp;Shedlon</li>
+                <li class="friendname" id="f6"><img src="picture/profilename.svg" width="15px">&nbsp;Max</li>
+                <li class="friendname" id="f7"><img src="picture/profilename.svg" width="15px">&nbsp;Emma</li>
+                <li class="friendname" id="f8"><img src="picture/profilename.svg" width="15px">&nbsp;Ron</li>
+                <li class="friendname" id="f9"><img src="picture/profilename.svg" width="15px">&nbsp;Harry</li>
+            </ul>
+        </div>
+        <div class="chatright">
+            <p><span style="color:#FAB57A">Me:</span> Hi Holly!</p> 
+            <p><span style="color:#FAB57A">Me:</span> would you like to join my picture?</p>
+            <p><span style="color:#80D6FF">Holly:</span> Wow cool! Sure!</p>
+            <p><span style="color:#FAB57A">Me:</span> I've sent you an invitation. Check it</p> 
+            <p><span style="color:#80D6FF">Holly:</span> Awesome! got it!</p>
+        </div>
+        <div >
+            <form >
+            <input type="text" required class="input-field" name="field0" />
+            <input class="signsubmit" type="submit" value="Send" />
+            </form> 
+        </div>
+        </div>
+        </div>
+    
+        <div class="left">
+            <div class="tool">
+                <div class="toolbox" id="trash">
+                    <img src="picture/tool_icons/trash.svg">
+                </div>
+                <div class="toolbox" id="bucket">
+                    <img src="picture/tool_icons/bucket.svg">
+                </div>
+                <div class="toolbox" id="move">
+                    <img src="picture/tool_icons/move.svg">
+                </div>  
+            </div>
+            <div class="tool">
+                <div class="toolbox selectedtool" id="pencil">
+                    <img src="picture/tool_icons/pencil.svg">
+                </div>
+                <div class="toolbox" id="pen">
+                    <img src="picture/tool_icons/pen.svg">
+                </div>
+                <div class="toolbox" id="brush">
+                    <img src="picture/tool_icons/brush.svg">
+                </div>  
+            </div>
+            <div class="tool">
+                <div class="toolbox" id="shape">
+                    <img src="picture/tool_icons/shape.svg">
+                </div>
+                <div class="toolbox" id="line">
+                    <img src="picture/tool_icons/line.svg">
+                </div>
+                <div class="toolbox" id="upload">
+                    <img src="picture/tool_icons/upload.svg">
+                </div>  
+            </div>
+            <div class="tool">
+                <div class="toolbox" id="eraser">
+                    <img src="picture/tool_icons/eraser.svg">
+                </div>
+                <div class="toolbox" id="undo">
+                    <img src="picture/tool_icons/undo.svg">
+                </div>
+                <div class="toolbox" id="redo">
+                    <img src="picture/tool_icons/redo.svg">
+                </div>  
+            </div>
+            <div class="colorpalette">
+                <section class="colorcontainer">
+                    <div class="colorbox" id="a40000" style="background-color:#a40000"></div>
+                    <div class="colorbox" id="e60012" style="background-color:#e60012"></div>
+                    <div class="colorbox" id="ff0000" style="background-color:#ff0000"></div>
+                    <div class="colorbox" id="ec6941" style="background-color:#ec6941"></div>
+                    <div class="colorbox" id="f19149" style="background-color:#f19149"></div>
+                    <div class="colorbox" id="facd89" style="background-color:#facd89"></div>
+                    <div class="colorbox" id="fbd7bc" style="background-color:#fbd7bc"></div>
+                    <div class="colorbox" id="fff1de" style="background-color:#fff1de"></div>
+                    <div class="colorbox" id="fff100" style="background-color:#fff100"></div>
+                    <div class="colorbox" id="fff799" style="background-color:#fff799"></div>
+                    <div class="colorbox" id="8fc31f" style="background-color:#8fc31f"></div>
+                    <div class="colorbox" id="22ac38" style="background-color:#22ac38"></div>
+                    <div class="colorbox" id="007130" style="background-color:#007130"></div>
+                    <div class="colorbox" id="84ccc9" style="background-color:#84ccc9"></div>
+                    <div class="colorbox" id="7ecef4" style="background-color:#7ecef4"></div>
+                    <div class="colorbox" id="00b7ee" style="background-color:#00b7ee"></div>
+                    <div class="colorbox" id="00479d" style="background-color:#00479d"></div>
+                    <div class="colorbox" id="8f82bc" style="background-color:#8f82bc"></div>
+                    <div class="colorbox" id="601986" style="background-color:#601986"></div>
+                    <div class="colorbox" id="de3172" style="background-color:#de3172"></div>
+                    <div class="colorbox" id="f29c9f" style="background-color:#f29c9f"></div>
+                    <div class="colorbox" id="b28850" style="background-color:#b28850"></div>
+                    <div class="colorbox" id="81511c" style="background-color:#81511c"></div>
+                    <div class="colorbox" id="ddd" style="background-color:#ddd"></div>
+                    <div class="colorbox" id="888" style="background-color:#888"></div>
+                    <div class="colorbox" id="000" style="background-color:#000"></div>
+                    <div class="colorbox" id="fff" style="border:1px solid #eee; background-color:#fff"></div>
+        <svg class="nonebox" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.71 20.71"><defs><style>.cls-1{fill:#fff;stroke:#e0e0e0;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{fill:none;stroke:#ee1c4e;}</style></defs><title>nocolor</title><rect class="cls-1" x="1.38" y="1.43" width="18.05" height="18.05"/><line class="cls-2" x1="20.35" y1="0.35" x2="0.35" y2="20.35"/></svg>
+                </section>
+                <section class="linecontainer">
+                    <div class="outlinebox" id="t1"><div class="linebox" style="width: 2px; height: 2px;"></div></div>
+                    <div class="outlinebox" id="t2"><div class="linebox" style="width: 5px; height: 5px;"></div></div>
+                        <div class="outlinebox" id="t3"><div class="linebox" style="width: 9px; height: 9px;"></div></div>
+                        <div class="outlinebox" id="t4"><div class="linebox" style="width: 12px; height: 12px;"></div></div>
+                    <div class="outlinebox" id="t5"><div class="linebox" style="width: 15px; height: 15px;"></div></div>
+                    <div class="outlinebox" id="t6"><div class="linebox" style="width: 19px; height: 19px;"></div></div>
+                </section>
+                <div class="colorset">
+                <input class="opabar" type="range" min="0" max="100" value="100" oninput="changeOpacity(this.value)"/>
+                    <div id="currentValue">100%</div>
+                <div class="colorlayer">
+                    <div class="curcolor selected" id="front"></div><div id="frontbg" class="selectedborder"></div>
+                    <div id="back"></div>
+                    <div id="backbg"></div>
+                    </div>
+            </div>    
+            </div>        
+            <div class="tool">
+                <div class="setbox1">
+                    <img src="picture/tool_icons/toolswhite.svg">
+                </div>
+                
+                <a href="canvasinfo.html">
+                    <div class="setbox2">
+                        <img src="picture/tool_icons/info.svg">
+                    </div>
+                </a>
+                
+                <div class="setbox3">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><img src="picture/tool_icons/sharing.svg"></a>
+                    
+<!--
+                    <div class="info-bubble">
+                        <div class="arrow bottom"></div>
+                        <a href="http://www.facebook.com">
+                            <img src="picture/social media icons/facebookicon.svg">
+                        </a>
+                        <a href="http://www.twitter.com">
+                            <img src="picture/social media icons/twittericon.svg">
+                        </a>
+
+                        <a href="http://www.instagram.com">
+                            <img src="picture/social media icons/instagramicon.svg">
+                        </a>
+
+                        <a href="http://www.pinterest.com">
+                            <img src="picture/social media icons/pinteresticon.svg">
+                        </a>
+
+                        <a href="http://www.tumblr.com">
+                            <img src="picture/social media icons/tumblricon.svg">
+                        </a>
+                    </div>
+-->
+                </div>  
+            </div>
+        </div>
+                <div class="canvascontainer">        
+            <div class="wholecanvas">
+                <div class="pencilCursor" id="canvasDiv"></div>
+                    <div class="canvas2"><div class="invite">+</div><p>Invite Friend</p></div>
+                    <div class="canvas3"><div class="invite">+</div><p>Invite Friend</p></div>
+                </div>
+            </div>
+                    <div id="light" class="white_content"> 
+                <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><span class="close-btn">X</span></a>
+                <h2>Save work</h2>
+            <form class="signupform" action="index.html" method="post">
+           <fieldset>
+        <label for="field0"><span>Title <span class="required">*</span></span><input type="text" required class="input-field" name="field0" value="" /></label>
+        <label for="field1"><span>Tag <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+               <label for="field2"><span>Description</span><textarea class="input-field"></textarea></label>
+        <input class="signsubmit" type="submit" value="Save" />
+        </fieldset>
+            </form>
+            </div>
+        <script>
+        </script>
+        <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="js/canvas.js"></script>    
+    </body>
+    
+</html>

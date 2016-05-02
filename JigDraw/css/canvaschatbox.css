@@ -1,0 +1,128 @@
+body {
+    background: lightgray;
+}
+
+#topcontainer {
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    background: #80D6FF;
+}
+
+#topcontainerimgs {
+    height: 100%;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lefticon {
+    height: 36px;
+    width: auto;
+    display: inline-block; 
+    float: left;
+    padding: 14px;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    display: inline-block;
+    padding: 6px;
+}
+
+#profilename {
+    height: 36px;
+    width: auto;
+    display: inline-block;
+    float: right;
+    padding: 14px;
+}
+
+.canvas {
+    position: absolute;
+    left: 360px;
+    background: #fff;
+    margin-top: 96px;
+    width: 62.5%;
+    height: auto;
+    z-index: 999;
+    float: right;
+}
+
+.canvas:after {
+  content: "";
+  display: block;
+}
+
+.canvas img {
+    width: 100%;
+    height: 100%;
+}
+
+#chatbox {
+    box-sizing: border-box;
+    width: 240px;
+    height: 761px;
+    position: absolute;
+    margin: 96px 64px;
+    background: white;
+    padding: 10px;
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.1em;
+}
+
+#messagebox {
+    position: absolute;
+        bottom: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 24px;
+    border: 2px solid #80D6FF;
+    margin: 0 auto;
+    padding: 2px;
+    
+    font-size: 0.9em;
+}
+
+input {
+    width: 90%;
+    background: none;
+    border: none;
+    color: gray;
+    font-weight: 100;
+    font-size: 0.9em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#messagebox img {
+    height: 10px;
+    width: auto;
+}
+
+#canvasinfo {
+    padding: 10px;
+    font-size: 0.8em;
+    line-height: 1.1em;
+}
+
+b {
+    font-weight: bolder;
+}
+
+blue {
+    font-weight: bolder;
+    color: #80D6FF;
+}
+
+red {
+    font-weight: bolder;
+    color: #ed7e7e;
+}
+
+orange {
+    font-weight: bolder;
+    color: #fab57a;
+}

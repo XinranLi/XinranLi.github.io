@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="407 105 47.4 385.3" enable-background="new 407 105 47.4 385.3" xml:space="preserve">
+<g id="图层_1_1_">
+	<path fill="#E36665" d="M407,105c0,0,15.3,18.4,27.5,19.9c12.2,1.5,19.9,7.6,19.9,24.5s0,148.3,0,148.3H407"/>
+	<path fill="#E36665" d="M407,490.3c0,0,15.3-18.4,27.5-19.9c12.2-1.5,19.9-7.6,19.9-24.5c0-16.8,0-148.3,0-148.3H407"/>
+	
+		<text transform="matrix(1 0 0 1 430.3162 201.2937)" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="20.2025" glyph-orientation-vertical="1" writing-mode="tb">COMPLITED</text>
+	<text transform="matrix(1 0 0 1 423.9354 383.1891)" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="20.2025"> </text>
+</g>
+<g id="图层_3" display="none">
+	<path display="inline" fill="#F3B179" d="M401.3,73.4c0,0,15.3,18.4,27.5,19.9c12.2,1.5,19.9,7.6,19.9,24.4s0,148.3,0,148.3h-47.4"
+		/>
+	<path display="inline" fill="#F3B179" d="M401.3,254.1h47.4c0,0,0,131.6,0,148.3s-7.6,22.9-19.9,24.5s-27.5,19.9-27.5,19.9"/>
+	
+		<text transform="matrix(1 0 0 1 425.0693 154.9352)" display="inline" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="17.8183" glyph-orientation-vertical="1" writing-mode="tb">INCOMPLITED</text>
+	
+		<text transform="matrix(1 0 0 1 418.6874 350.9362)" display="inline" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="17.8183"> </text>
+	<line display="inline" fill="none" x1="448.7" y1="265.9" x2="448.7" y2="325.3"/>
+</g>
+<g id="图层_2" display="none">
+	<path display="inline" fill="#F7E380" d="M401.3,103.6c0,0,15.3,18.4,27.5,19.9c12.2,1.5,19.9,7.6,19.9,24.4s0,148.3,0,148.3h-47.4
+		"/>
+	<path display="inline" fill="#F7E380" d="M401.3,417.4c0,0,15.3-18.4,27.5-19.9s19.9-7.6,19.9-24.5s0-148.3,0-148.3h-47.4"/>
+	
+		<text transform="matrix(1 0 0 1 425.0693 193.2771)" display="inline" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="17.8183" glyph-orientation-vertical="1" writing-mode="tb">COMBINED</text>
+	
+		<text transform="matrix(1 0 0 1 418.6874 335.8229)" display="inline" fill="#FFFFFF" font-family="'QuicksandBold-Regular'" font-size="17.8183"> </text>
+</g>
+</svg>

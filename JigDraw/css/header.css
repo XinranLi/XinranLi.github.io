@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; 
+
+}
+
+
+#topcontainer {
+    height: 64px;
+    width: 100%;
+    background: #80D6FF;
+    -webkit-box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px -5px rgba(0,0,0,0.5);
+    display: -webkit-flex;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+}
+.small {
+    height: 3px;
+}
+
+#topcontainerimgs {
+    height: 100%;
+    width: 82.5%;
+    margin: 0 auto;
+}
+
+#lefticon {
+    height: 50%;
+    width: auto;
+    display: inline-block; 
+    float: left;
+    padding: 14px;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    display: inline-block;
+    padding: 6px;
+}
+
+#profilename {
+    height: 64px;
+    display: block;
+    float: right;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#profilename img {
+    height: 65%;
+    padding: 10px 10px 0 0;
+}
+
+#profilename p {
+    float: right;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.speech-bubble a img {
+    height: 60px;
+    width: auto;
+    padding: 5px;
+}
+
+.speech-bubble a {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #80D6FF;
+}
+
+.speech-bubble a:hover, .speech-bubble a:focus {
+    background: #f8f8f8;
+}
+
+#profilename:hover .speech-bubble {
+    display: inline-block;
+    z-index: 9999999;
+}
+.speech-bubble {
+    background-color: white;
+    border: 3px solid #80D6FF;
+    width: 125px;
+    position: absolute;
+        right: 70px;
+        top: 60px;
+    z-index: 10000;
+    line-height: 1.0em;
+    padding: 10px;
+    display: none;
+    
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+
+.bottom {
+    border-color: transparent transparent white transparent;
+    border-style: solid;
+    border-width: 0px 10px 10px 10px;
+    position: absolute;
+        top: -10px;
+        right: 65px;
+        
+}
+
+/*mobile & pad*/
+@media screen and (max-width: 768px) { 
+/*
+    #logo {
+        display: none;
+    }
+*/
+    
+    #lefticon {
+        height: 50%;
+        width: auto;
+        display: inline-block; 
+        float: left;
+        padding: 14px;
+    }
+
+    #profilename {
+        height: 64px;
+        display: block;
+        float: right;
+        font-family: 'Quicksand', sans-serif; 
+    }
+
+    #profilename img {
+        height: 65%;
+        padding: 10px 10px 0 0;
+    }
+
+    #profilename p {
+        float: right;
+        margin-top: 20px;
+        font-size: 1.2em;
+    }
+}

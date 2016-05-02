@@ -1,0 +1,174 @@
+body {
+    background-color:#f9f9f9;
+    background-image: linear-gradient(#c7f4ff 2px, transparent 2px),
+    linear-gradient(90deg, #c7f4ff 2px, transparent 2px),
+    linear-gradient(rgba(215,245,245,.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(215,245,245,.5) 1px, transparent 1px);
+    background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+
+a {
+    text-decoration: none;
+}
+.delchat {
+    float: right;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chatbox {
+    background-color: #FFE980;
+    width: 80vw;
+    margin: 100px auto;
+    box-shadow: 2px 2px 15px grey;
+    font-family: 'Quicksand','Open Sans Condensed', sans-serif;
+    color: #fff;
+    padding: 0.5em;
+    height: 75vh;
+}
+
+.friendlist {
+    vertical-align: center;
+    padding: 0.2em;
+}
+.friendname{
+    cursor: pointer;
+}
+
+.selfri{
+    background-color: #FAB57A;
+}
+#chattitle{ 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.chatcontent {
+    height: 45vh;
+    margin: 1em;
+}
+
+.input-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    background-color: #fefefe;
+    margin: 0.5em 0;
+    padding: 5px;
+    border: 1px solid #eee;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    width: 70%;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.chatleft {
+    float: left;
+    background-color: #fefefe;
+    color: #888;
+    overflow: scroll;
+    font-size: 13px;
+    width: 40%;
+    height: 100%;
+    border: 1px solid #ddd;
+}
+
+.chatright {
+    padding: 0.4em;
+    overflow: scroll;
+    float: right;
+    background-color: #fefefe;
+    width: 55%;
+    height: 100%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.signsubmit {
+    background-color: #FAB57A;
+    margin: 0.5em 0;
+    font-size: 15px;su
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    padding: 0.4em;
+    display: block;
+    text-align: center;
+    width: 20%;
+    float: right;
+    border: none;
+}
+
+#copy {
+    color: gray;
+    opacity: 0.3;
+    margin-left: 6%;
+    height: 10px;
+    font-size: 0.8em;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 5.8em;
+    z-index: 1;
+}
+
+.speech-bubble {
+    background-color: white;
+    border: 3px solid #80D6FF;
+    width: 125px;
+    position: absolute;
+        right: 70px;
+        top: 60px;
+    z-index: 10000;
+    line-height: 1.0em;
+    padding: 10px;
+    display: none;
+    
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+
+.bottom {
+    border-color: transparent transparent white transparent;
+    border-style: solid;
+    border-width: 0px 10px 10px 10px;
+    position: absolute;
+        top: -10px;
+        right: 65px;
+        
+}
+
+.speech-bubble a img {
+    height: 60px;
+    width: auto;
+    padding: 5px;
+}
+
+.speech-bubble a {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #80D6FF;
+}
+
+.speech-bubble a:hover, .speech-bubble a:focus {
+    background: #f8f8f8;
+}
+
+#profilename:hover .speech-bubble {
+    display: inline-block;
+    z-index: 9999999;
+}
+
+p {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.chatright p {
+    color: #bbb;
+}

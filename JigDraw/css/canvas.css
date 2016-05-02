@@ -1,0 +1,856 @@
+body {
+    background: lightgray;
+    overflow: scroll;
+    background-image: linear-gradient(#efefef 2px, transparent 2px),
+    linear-gradient(90deg, #efefef 2px, transparent 2px),
+    linear-gradient(rgba(225,235,235,.5) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(225,235,235,.5) 1px, transparent 1px);
+    background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+.chathide {
+    background-color: #FFE980;
+    width: 25vw;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 999999999999;
+    box-shadow: 2px 2px 15px grey;
+    font-family: 'Quicksand','Open Sans Condensed', sans-serif;
+    color: #fff;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.canvas2 p, .canvas3 p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Quicksand','Open Sans Condensed', sans-serif;
+}
+#chattitle{
+    cursor: pointer;
+}
+.chatbox {
+    display: none;
+    background-color: #FFE980;
+    width: 25vw;
+    position: fixed;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 999999999999;
+    box-shadow: 2px 2px 15px grey;
+    font-family: 'Quicksand','Open Sans Condensed', sans-serif;
+    color: #fff;
+    padding: 0.5em;
+}
+
+.friendlist {
+    vertical-align: center;
+    padding: 0.2em;
+}
+.friendname{
+    cursor: pointer;
+}
+
+.selfri{
+    background-color: beige;
+}
+
+.chatcontent {
+    height: 20vh;
+    margin: 0.5em 0;
+}
+
+.input-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    background-color: #fefefe;
+    margin: 0.5em 0;
+    padding: 5px;
+    border: 1px solid #eee;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    width: 70%;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.chatleft {
+    float: left;
+    background-color: #fefefe;
+    color: #888;
+    overflow: scroll;
+    font-size: 13px;
+    width: 40%;
+    height: 100%;
+    border: 1px solid #ddd;
+}
+
+.chatright {
+    overflow: scroll;
+    float: right;
+    background-color: #fefefe;
+    width: 55%;
+    height: 100%;
+    border: 1px solid #ddd;
+}
+
+p {
+    color: #777;
+    margin:1em; font-size: 11px
+}
+
+h2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align:center; line-height: 1.5em;
+    background: #FAB57A;
+    text-transform: uppercase;
+    font-family: 'Quicksand','Open Sans Condensed', sans-serif;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -20px -20px 20px -20px;
+}
+
+.styled-select {
+    font-family: 'Quicksand','Open Sans Condensed', sans-serif;
+    height: 34px;
+    overflow: hidden;
+    background: url(new_arrow.png) no-repeat right #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+
+a {
+    text-decoration: none;
+}
+
+.close-btn {
+    color: #fff;
+    z-index: 99999;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    display:block;
+    float:right;
+    top: -1.6em;
+    right: -0.8em;
+    position: relative;
+}
+
+.close-btn:hover {
+    color: #00c5c3;
+}
+.close-btn a {
+    z-index: 99999;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.signsubmit {
+    background-color: #FAB57A;
+    margin: 0.5em 0;
+    font-size: 15px;su
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    padding: 0.4em;
+    display: block;
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+
+
+#lefticon {
+    height: 36px;
+    width: auto;
+    display: inline-block; 
+    float: left;
+    padding: 14px;
+}
+
+.wholecanvas {
+    position: absolute;
+    left: 360px;
+    background: #fff;
+    margin-top: 98px;
+    width: 810px;
+    height: 500px;
+    z-index: 999;
+    float: right;
+    border: 3px solid #eee;
+}
+
+.pencilCursor {
+    cursor:url('../picture/tool_icons/pencil.svg') 0 30,default;
+}
+
+.brushCursor {
+cursor:url('../picture/tool_icons/brush.svg') 0 23,default;
+}
+
+.penCursor {
+    cursor:url('../picture/tool_icons/pen.svg') 0 28,default;
+}
+
+.eraCursor {
+    cursor:url('../picture/tool_icons/eraser.svg') 8 20,default;
+}
+
+.bucketCursor {
+    cursor:url('../picture/tool_icons/bucket.svg') 24 28,default;
+}
+
+
+.wholecanvas:after {
+  content: "";
+  display: block;
+}
+
+.canvascontainer {
+    position: relative;
+}
+
+#canvasDiv {
+    position: absolute;
+    width: 270px;
+    height: 500px;
+    border: 3px solid #80D6FF;
+}
+
+.invite {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 99px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canvas2 {
+    opacity: 0.3;
+    position: absolute;
+    left: 270px;
+    width: 270px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #80D6FF;
+    border: 3px solid #fefefe;
+    box-sizing: border-box;
+}
+
+.canvas3 {
+    opacity: 0.3;
+    position: absolute;
+    left: 540px;
+    width: 270px;
+    height: 500px;
+    background-color: #80D6FF;
+    border: 3px solid #fefefe;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorset {
+    width: 100%;
+    float: right;
+    right: 10%;
+    z-index: 5;
+}
+
+#currentValue {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    position: relative;
+    float: left;
+}
+
+.selectedborder{
+    border: 2px solid red !important;
+    z-index: 9999;
+}
+
+.opabar {
+    width: 60%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8em auto;
+}
+
+.colorlayer {
+    margin: 0.5em;
+    width: 30%;
+    float: right;
+    position: relative;
+}
+
+.curcolor{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+
+
+.selectc {
+    border: 2px solid red !important;
+}
+
+#frontbg {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #fff;
+    position: absolute;
+    background-color: #fff;
+    z-index: 4;
+    top: -2px;
+    left: -2px;
+}
+
+#front {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 9;
+}
+
+#back {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background-color: #000;
+    top: -10px;
+    left: 14px;
+    z-index: 2;
+}
+
+#backbg {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border: 2px solid #fff;
+    background-color: #fff;
+    top: -12px;
+    left: 12px;
+    z-index: 1;
+}
+
+.canvas2:hover, .canvas3:hover {
+    opacity: 0.5;
+}
+
+.left {
+    box-sizing: content-box;
+    position: relative;
+    margin: 98px 0;
+    background: #fff;
+    width: 23.75vw;
+    height: 50vw;
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+.tool {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.color{
+    border-right: 2px solid #e6e6e6;
+    z-index: 12;
+}
+
+.toolbox {
+    box-sizing: border-box;
+    height: 11vh;
+    width: 33.4%;
+    border-right: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectedtool{
+    background-color: #eee;
+}
+
+.toolbox:hover {
+    border: 2px solid #FFE980 !important;
+    box-sizing: border-box;
+}
+
+.nonebox:hover, .colorbox:hover {
+    border: 2px solid #FFE980 !important;
+    box-sizing: padding-box;
+    
+}
+
+.linebox:hover{
+    background-color: #999;
+}
+
+.boxclicked {
+    background-color: #d7eaf4;
+}
+
+.toolbox img {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.colorpalette {
+    padding: 5px;
+    padding-right: 0;
+    height: 170px;
+    width: 100%;
+    display: inline-block;
+    z-index: 5;
+}
+
+.colorbox {
+    display: inline-block;
+    margin-right: 0;
+    width:9%;
+    padding-top:9%;
+    z-index: 10;
+    border: 2px solid #fff;
+}
+
+.nonebox {
+    left: -2px;
+    top: -1px;
+    width:10%;
+    z-index: 10;
+}
+
+.outlinebox {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+.linebox {
+    display: inline-block;
+    background-color: #444;
+    border-radius: 50%;
+}
+
+
+.colorcontainer {
+    padding: 0.5px;
+    display: inline-block;
+    width: 85%;
+    float: left;
+    box-sizing: border-box;
+    margin: 1px;
+    z-index: 999999999999;
+}
+
+.linecontainer {
+    margin-right: 10px;
+    display: inline-block;
+    width: 8%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.colorpalette img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10%;
+    height: 100%;
+    width: 80%;
+}
+
+#canvas{
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+
+.setbox1 {
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 33.33%;
+    border-right: 2px solid #e6e6e6;
+    border-top: 2px solid #e6e6e6;
+    background: #80D6FF;
+}
+
+.setbox1 img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33.33%;
+    height: 100%;
+}
+
+.setbox2 {
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 33.33%;
+    box-sizing: border-box;
+    width: 33.33%;
+    border-right: 2px solid #e6e6e6;
+    border-top: 2px solid #e6e6e6;
+}
+
+.setbox2 img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33.33%;
+    height: 100%;
+}
+
+.setbox3 {
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 66.67%;
+    box-sizing: border-box;
+    width: 33.33%;
+    border-right: 2px solid #e6e6e6;
+    border-top: 2px solid #e6e6e6;
+}
+
+.setbox3 img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33.33%;
+    height: 100%;
+}
+
+
+#messagebox {
+    position: absolute;
+    bottom: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 24px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding: 2px;
+    
+    font-size: 0.9em;
+}
+
+input {
+    width: 90%;
+    background: none;
+    border: none;
+    color: gray;
+    font-weight: 100;
+    font-size: 0.9em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#messagebox img {
+    height: 10px;
+    width: auto;
+}
+
+#canvasinfo {
+    padding: 10px;
+    font-size: 0.8em;
+    line-height: 1.1em;
+}
+
+.info-bubble {
+    background-color: #f8f8f8;
+    border: 3px solid #80D6FF;
+    border-radius: 5px;
+    width: 40%;
+    height: 270px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    right: -25px;
+    bottom: 3em;
+    z-index: 10000;
+    display: none;
+}
+
+/*
+.info-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+*/
+
+.bottom {
+    border-color: #80D6FF transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px 10px 0px 10px;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50px;    
+}
+
+.info-bubble a img {
+    width: 100%;
+}
+
+.setbox3:hover .info-bubble {
+    display: inline-block;
+}
+
+b {
+    font-weight: bolder;
+}
+
+blue {
+    font-weight: bolder;
+    color: #80D6FF;
+}
+
+red {
+    font-weight: bolder;
+    color: #ed7e7e;
+}
+
+orange {
+    font-weight: bolder;
+    color: #fab57a;
+}
+
+/*pad*/
+@media screen and (max-width: 900px) {
+    .wholecanvas {
+        left: 160px;
+    }
+
+    .colorpalette {
+        padding: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    .colorbox {
+        width: 16px;
+        height: 16px;
+        z-index: 10;
+        padding: 0;
+        border: 1px solid #fff;
+    }
+
+    .nonebox {
+        left: -2px;
+        top: -1px;
+        width:10%;
+        z-index: 10;
+    }
+    
+    .colorbox:hover {
+        border: 1px solid #FFE980 !important;  
+    }
+    .colorcontainer {
+        padding: 0;
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        z-index: 999999999999;
+    }
+
+    .linecontainer {
+        margin-right: 10px;
+        display: inline-block;
+        float: left;
+        box-sizing: border-box;
+    }
+    .left {
+        box-sizing: content-box;
+        position: relative;
+        margin: 72px 0;
+        background: #fff;
+        width: 150px;
+        float: left;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+    }
+}
+
+.white_content {
+    border-radius: 20px;
+    position: absolute;
+    left:0;
+    right:0;
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+	margin: 8em auto;
+	padding: 20px;
+    color: #888;
+	border: 5px solid #FAB57A;
+	background-color: white;
+	z-index:9999999999999999999999999919002;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.2em;
+    display: none;
+}
+
+.white_content > form{
+    display:block;
+    margin-bottom: 10px;
+}
+
+h2{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align:center; line-height: 1.5em;
+    background: #FAB57A;
+    text-transform: uppercase;
+    font-family: 'Quicksand','Open Sans Condensed', sans-serif;
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -20px -20px 20px -20px;
+}
+
+.close-btn {
+    color: #fff;
+    z-index: 99999;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    display:block;
+    float:right;
+    top: -1em;
+    right: -1em;
+    position: relative;
+}
+
+.close-btn:hover {
+    color: #00c5c3;
+}
+.close-btn a {
+    z-index: 99999;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.signsubmit {
+    background-color: #FAB57A;
+    margin: 2em auto;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 0px solid #FAB57A;
+    display: block;
+    text-align: center;
+    width: 40%;
+}
+.signupform label > span{
+    float: left;
+    width: 100px;
+    color: #FAB57A;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #fff;
+    vertical-align: bottom;
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    .wholecanvas {
+        left: 110px;
+    }
+    
+    .left {
+        box-sizing: content-box;
+        position: relative;
+        margin: 72px 0;
+        background: #fff;
+        width: 100px;
+        height: auto;
+        float: left;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5em;
+    }
+    
+    .toolbox {
+        box-sizing: border-box;
+        height: 12vw;
+        width: 50%;
+        border-right: none;
+        border-bottom: none;
+        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .toolbox img {
+        width: 70%;
+        height: 70%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .colorbox, nonebox {
+        width: 15px;
+        height: 15px;
+        z-index: 10;
+        padding: 0;
+        border: 1px solid #fff;
+    }
+    .colorset {
+    width: 100%;
+    float: none;
+    }
+    .colorlayer {
+    margin: 0.2em;
+    width: 30%;
+    float: none;
+    position: relative;
+    top: 220px;
+    left: 30px;
+    }
+    
+    .setbox1,.setbox2,.setbox3  {
+    padding: 0;
+    }
+}
