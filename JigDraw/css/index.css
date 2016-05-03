@@ -77,6 +77,14 @@ a {
     opacity: 0;
 }
 
+.divi {
+    padding: 0.4em;
+    border-radius: 0.3em;
+    margin: 0.4em;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    width: 20px;
+}
 .draft:hover{
     opacity: 1;
     cursor: pointer;
@@ -318,7 +326,7 @@ h2{
     font-family: 'Quicksand','Open Sans Condensed', sans-serif;
     height: 34px;
     overflow: hidden;
-    background: url(new_arrow.png) no-repeat right #f9f9f9;
+    background-color: #f9f9f9;
     border: 1px solid #ccc;
 }
 
