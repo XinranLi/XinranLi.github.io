@@ -33,26 +33,38 @@ a {
     font-family: 'Quicksand', sans-serif; 
     padding-left: 2em;
 padding-bottom: 0;
-    display: inline;
-    width: 90%;
+    display: inline-block;
+    width: 100%;
+        background-color: white;
+    vertical-align: baseline; 
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
 #my {
-margin-top: 60px;
-    padding-left: 30%;
-    background: white;
-    padding: 1em;
+
+    padding-left: 5%;
+
+    float: left;
+
     color:#80D6FF;
+    display: inline-block; 
+    background-color: white;
 }
 .field {
     float: right;
-    margin-top: -70px;
+margin-top: 0.5%;
+
     margin-right: 10%;
 font-weight: 200;
     font-size: 15px;
+align-items: center;
+ display: inline-block;    
 
 }
-.field imput {
+
+.field input {
     display: inline-block;
+    border: 1px solid #80D6FF;
 }
 .field p {
     display: inline-block;
@@ -553,11 +565,16 @@ input[type="submit"]:hover{
 @media screen and (max-width: 800px) {  
     .title {
         font-size: 12px;
+        
     }
-    
+    #my {
+align-items: center;
+    }
+.field p {
+    font-size: 10px;
+}
     .field {
-        margin-top: -40px;
-font-size: 10px;    }
+        align-items: center;}
 .tips {
     width: 50px;
     float: right;

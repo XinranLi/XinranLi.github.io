@@ -62,11 +62,24 @@ a {
     height: 100%;
     position: absolute;
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
+    font-family: Arial,sans-serif;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-align-items: center;
     align-items: center;
-    vertical-align: middle;
-    
+    text-align: center;
+    -webkit-text-align: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.draft:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .cra p {
@@ -461,7 +474,7 @@ h2{
     .right {
         box-sizing: border-box;
         margin-right: 6%;
-        height: 40vh;
+        height: inherit;
         width: 88%;
         float: right;
         text-align: center;
@@ -514,6 +527,30 @@ h2{
         padding: 0.2em; 
         border: 2px solid #fff;
     }
+    
+    .white_content {
+    box-sizing: border-box;
+    border-radius: 0px;
+    display: none;
+    position: absolute;
+    left: 0;
+    margin: 5em auto;
+    width: 100%;
+    padding: 1em;
+    border: 0px solid #80D6FF;
+}
+
+.white_content > form{
+    display:block;
+    margin-bottom: 10px;
+}
+    
+h2 {
+    box-sizing: border-box;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    }
+    
 }
     
 @media screen and (min-width: 1350px) {
