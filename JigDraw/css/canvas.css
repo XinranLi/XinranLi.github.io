@@ -806,7 +806,7 @@ h2{
 
 .signsubmit {
     background-color: #FAB57A;
-    margin: 2em auto;
+    margin: 2em 2px;
     font-size: 15px;
     font-family: 'Quicksand', sans-serif;
     color: #fff;
@@ -815,7 +815,11 @@ h2{
     border: 0px solid #FAB57A;
     display: block;
     text-align: center;
-    width: 40%;
+    width: 36%;
+}
+
+.signsubmit a{
+    color: #fff;
 }
 .signupform label > span{
     float: left;
