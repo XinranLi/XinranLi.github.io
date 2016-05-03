@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/canvas.css">
          <link rel="stylesheet" type="text/css" href="css/header.css">
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+                <meta name="viewport" content="width=device-width, initial-scale=1" >
     </head>
     <body>
 <div id="topcontainer">
@@ -165,16 +166,20 @@
                     <div class="outlinebox" id="t5"><div class="linebox" style="width: 15px; height: 15px;"></div></div>
                     <div class="outlinebox" id="t6"><div class="linebox" style="width: 19px; height: 19px;"></div></div>
                 </section>
+                
                 <div class="colorset">
+                    <div class="barbar">
                 <input class="opabar" type="range" min="0" max="100" value="100" oninput="changeOpacity(this.value)"/>
-                    <div id="currentValue">100%</div>
+                        <div id="currentValue">100%</div></div>
                 <div class="colorlayer">
+                    <div class="put">
                     <div class="curcolor selected" id="front"></div><div id="frontbg" class="selectedborder"></div>
+   
                     <div id="back"></div>
-                    <div id="backbg"></div>
+                        <div id="backbg"></div></div>
                     </div>
             </div>    
-            </div>        
+            </div>      
             <div class="tool">
                 <div class="setbox1">
                     <img src="picture/tool_icons/toolswhite.svg">
@@ -187,7 +192,7 @@
                 </a>
                 
                 <div class="setbox3">
-                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><img src="picture/tool_icons/sharing.svg"></a>
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><img src="picture/new_icon/save-05.svg"></a>
                     
 <!--
                     <div class="info-bubble">

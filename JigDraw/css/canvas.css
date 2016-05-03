@@ -384,7 +384,7 @@ cursor:url('../picture/tool_icons/brush.svg') 0 23,default;
     margin: 98px 0;
     background: #fff;
     width: 23.75vw;
-    height: 50vw;
+    height: 600px;
     float: left;
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5em;
@@ -447,7 +447,7 @@ cursor:url('../picture/tool_icons/brush.svg') 0 23,default;
 .colorpalette {
     padding: 5px;
     padding-right: 0;
-    height: 170px;
+    height: 200px;
     width: 100%;
     display: inline-block;
     z-index: 5;
@@ -502,6 +502,7 @@ cursor:url('../picture/tool_icons/brush.svg') 0 23,default;
     float: right;
     box-sizing: border-box;
 }
+
 
 .colorpalette img {
     display: inline-block;
@@ -671,10 +672,13 @@ orange {
         left: 160px;
     }
 
-    .colorpalette {
+     .colorpalette {
         padding: 0;
-        height: auto;
+        height: 300px;
         width: 100%;
+        display: block;
+        background-color:white;
+        
     }
 
     .colorbox {
@@ -692,8 +696,15 @@ orange {
         z-index: 10;
     }
     
+    .put {
+        display: block;
+        width: 100%;
+    }
     .colorbox:hover {
         border: 1px solid #FFE980 !important;  
+    }
+    .opabar {
+        width :100%;
     }
     .colorcontainer {
         padding: 0;
@@ -704,11 +715,21 @@ orange {
     }
 
     .linecontainer {
-        margin-right: 10px;
-        display: inline-block;
+
+        display: inline;
         float: left;
-        box-sizing: border-box;
+        width: 90%;
+
     }
+    
+    .outlinebox {
+        width: 5%;
+        display: inline-block;
+    }
+    #t6 {
+        margin-left: 3%;
+    }
+    
     .left {
         box-sizing: content-box;
         position: relative;
@@ -808,6 +829,7 @@ h2{
 
 /*mobile*/
 @media screen and (max-width: 600px) {
+
     .wholecanvas {
         left: 110px;
     }
@@ -842,13 +864,38 @@ h2{
         display: inline-block;
         vertical-align: middle;
     }
-    
+    .barbar {
+        width: 100%;
+    }
     .colorbox, nonebox {
         width: 15px;
         height: 15px;
         z-index: 10;
         padding: 0;
         border: 1px solid #fff;
+        display: block;
+    }
+    .left {
+        height: 900px;
+    }
+    .put {
+        width: 100%;
+        display: block;
+        float: bottom;
+    }
+    .colorcontainer {
+        width: 100%;
+        display: block;
+    }
+    .currentValue {
+        width: 100%;
+        display: block;
+
+        
+    }
+    .opabar {
+        width: 100%;
+           display: inline;
     }
     .colorset {
     width: 100%;
