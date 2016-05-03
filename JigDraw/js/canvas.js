@@ -358,6 +358,7 @@ $( "#t6" ).click(function() {
 
 $( "#pen" ).click(function() {
     $(".toolbox").removeClass("selectedtool");
+    $("#pen" ).addClass("selectedtool");
     $("#canvasDiv").addClass("penCursor");
     radius = preRadius;
     curSize = preSize;
