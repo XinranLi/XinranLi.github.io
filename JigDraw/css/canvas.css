@@ -844,7 +844,7 @@ h2{
         margin: 72px 0;
         background: #fff;
         width: 100px;
-        height: auto;
+        height: 900px;
         float: left;
         font-family: 'Quicksand', sans-serif;
         font-size: 1.5em;
@@ -852,7 +852,7 @@ h2{
     
     .toolbox {
         box-sizing: border-box;
-        height: 12vw;
+        height: 50px;
         width: 50%;
         border-right: none;
         border-bottom: none;
@@ -872,24 +872,28 @@ h2{
         width: 100%;
     }
     .colorbox, nonebox {
-        width: 15px;
-        height: 15px;
+        width: 30px;
+        height: 30px;
+
+        display: inline-block;
         z-index: 10;
         padding: 0;
         border: 1px solid #fff;
-        display: block;
+
     }
     .left {
         height: 900px;
     }
     .put {
+        top: 400px;
         width: 100%;
         display: block;
         float: bottom;
+        position: relative;
     }
     .colorcontainer {
         width: 100%;
-        display: block;
+        display: inline;
     }
     .currentValue {
         width: 100%;
@@ -913,7 +917,7 @@ h2{
     top: 220px;
     left: 30px;
     }
-    
+  
     .setbox1,.setbox2,.setbox3  {
     padding: 0;
     }

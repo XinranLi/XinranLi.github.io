@@ -65,10 +65,12 @@ align-items: center;
 .field input {
     display: inline-block;
     border: 1px solid #80D6FF;
+    
 }
 .field p {
     display: inline-block;
 margin-right:1em;
+    margin-left: 1em;
 }
     
     
@@ -571,7 +573,7 @@ input[type="submit"]:hover{
 align-items: center;
     }
 .field p {
-    font-size: 10px;
+    font-size: 12px;
 }
     .field {
         align-items: center;}
