@@ -84,4 +84,5 @@ ul {
     margin: 2px;
     border-top: 1px solid #b7dcf1;
     border-left: 1px solid #b7dcf1;
+	cursor: pointer;
 }

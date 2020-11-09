@@ -40,50 +40,31 @@
 	        <div class="card blue-grey darken-4">
             <div class="bar"><div class="bar2"><span style="color: #ea6963">&bull;</span><span style="color: #f5bf45">&bull;</span><span style="color: #35cb4d">&bull;</span></div>Holly's CV</div>
 	            <div class="card-content white-text">
+					<p style="color: #75715d"	>import java.util.*;</p>
     <span style="color: #75715d">/**
-    * Objective: 
-    * To attatin a full-time position in software engineering or web application.
+	* My personal resume
     * <span style="color: #f92772">@author</span> Xinran Li
-    * <span style="color: #f92772">@E-mail</span> xinranli@cmu.edu
-    * <span style="color: #f92772">@Tel</span> (412)-932-6740
     **/</span>
     <span style="color: #f92772">public class</span><span style="color: FFFFFF"> Resume {</span>
-        <span style="color: #f92772">class</span> Skills {</span>
-            <i><span style="color: #66d9ef">String</i></span>[] programmingLanguage <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>[] {
-                <span style="color: #fff799">"Java"</span>,
-                <span style="color: #fff799">"Python"</span>,
-                <span style="color: #fff799">"Go"</span>,
-                <span style="color: #fff799">"JavaScript"</span>,
-                <span style="color: #fff799">"C";</span>,
-                <span style="color: #fff799">"SQL"</span>,
-                <span style="color: #fff799">"MatLab"</span>,
-                <span style="color: #fff799">"R"</span>,
-                };
-            <i><span style="color: #66d9ef">String</i></span>[] webApplication <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>[] {
-                <span style="color: #fff799">"HTML"</span>,
-                <span style="color: #fff799">"CSS"</span>,
-                <span style="color: #fff799">"JQuery"</span>,
-                <span style="color: #fff799">"Django"</span>,
-                <span style="color: #fff799">"MySQL"</span></span>
-                };
-            <i><span style="color: #66d9ef">String</i></span>[] Tools <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>[] {
-                <span style="color: #fff799">"bash"</span>,
-                <span style="color: #fff799">"Git"</span>,
-                <span style="color: #fff799">"Vim"</span></span>
-                };
-            }
-        }
+		<span style="color: #f92772">  Set<i><span style="color: #66d9ef">&lt;String&gt;</i></span> skillSet = <span style="color: #f92772">new</span> HashSet&lt;&gt;(Arrays.asList(</span>
+		<span style="color: #75715d">     // Programming languages</span>
+		<span style="color: #fff799">     "TypeScript", "JavaScript", "HTML", "CSS/LESS", "Java", "Python", "C/C++", "C#", "bash", "Go", "SQL",</span>
+		<span style="color: #75715d">     // Full stack web development</span>
+		<span style="color: #fff799">     "Angular", "AngularJS", "Spring Boot", "Django", "Redux", "Hibernate", "Bootstrap", "Material-UI", "jQuery",</span>
+		<span>  ));</span>
+		
   	            <div class="card-action">
 <div class="card-content white-text" style = "opacity: 0.9; margin-top: -50px;">              
                 <div class="card-content white-text" style = "opacity: 0.9; margin-top: -50px;">
-<span style="color: #f92772">class</span><span style="color: FFFFFF"> workExperience {</span>
+<span style="color: #f92772">public class</span><span style="color: FFFFFF"> workExperience <span style="color: #f92772">extends</span> Internship {</span>
 <span style="color: #75715d">   /**
+	* Bioinformatic software pipeline research
     * <span style="color: #f92772">@Company</span> Philips
     * <span style="color: #f92772">@Position</span> Research Intern of Clinical Informatics Solutions and Services(CISS)
     * <span style="color: #f92772">@Time</span> May 2015 ~ Aug 2015
     * <span style="color: #f92772">@Location</span> Briarcliff Manor, NY
     **/</span>
-<span style="color: #f92772">   class</span> philipsResearch {
+<span style="color: #f92772">   public class</span> philipsResearch {
         <i><span style="color: #66d9ef">String</i></span> work <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>(<span style="color: #fff799">"Developed analytic program in Python to select 
         feature antibiotic resistant genes in bacteria genome of clinical data. 
         Classified the gene results into synonymous and non-synonymous mutations 
@@ -95,11 +76,11 @@
 
 <span style="color: #f92772">class</span><span style="color: FFFFFF"> selectedProjects {</span>
 <span style="color: #75715d">   /**
-    * <span style="color: #f92772">@Projects1</span> Social Network.
+    * Dynamic Social Network
     * <span style="color: #f92772">@Time</span> Jan 2015 - Mar 2015
     * <span style="color: #f92772">@Location</span> Carnegie Mellon University
     **/</span>    
-    <span style="color: #f92772"> class</span> socialNetwork</span> {</span>
+    <span style="color: #f92772"> public class</span> socialNetwork</span> {</span>
         <i><span style="color: #66d9ef">String</i></span> dynamicWebsite <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>(<span style="color: #fff799">"Developed a dynamic website 
         with several interactive features including user registration, 
         email verification, blog posting using JavaScript and AJAX based 
@@ -110,11 +91,11 @@
         }
     
    <span style="color: #75715d">/**
-    * <span style="color: #f92772">@Projects2</span> Wikipedia page view data processing.
+    * Wikipedia page view data processing
     * <span style="color: #f92772">@Time</span> Sep ~ Oct, 2015
     * <span style="color: #f92772">@Location</span> Carnegie Mellon University
     **/</span>    
-    <span style="color: #f92772">class</span> {
+    <span style="color: #f92772">public class</span> wikipediaDataProcess {
         <span style="color: #66d9ef">String</i></span> wikipediaDataProcess <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>(<span style="color: #fff799">"Used AWS Elastic 
         MapReduce to filter, extract and aggregate daily page view data from 
         300G raw wikipedia log dataset on the cloud.
@@ -125,11 +106,11 @@
     }
 
     <span style="color: #75715d">/**
-    * <span style="color: #f92772">@Projects3</span> Biological/Clinical data mining and processing.
+    * Biological/Clinical data mining and processing
     * <span style="color: #f92772">@Time</span> Mar, 2014 ~ Sep, 2015
     * <span style="color: #f92772">@Location</span> Sun Yat-sen University, Carnegie Mellon University
     **/</span>    
-    <span style="color: #f92772">class</span> {
+    <span style="color: #f92772">public class</span> bioDataMining {
         <span style="color: #66d9ef">String</i></span> bioDataMining <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>(<span style="color: #fff799">"Applied machine learning 
         methods to analyze large genome data and extract features of interests.
         
@@ -143,28 +124,28 @@
     }
 
     <span style="color: #75715d">/**
-    * <span style="color: #f92772">@Projects4</span> Searching Directory Application.
+    * Searching Directory Application
     * <span style="color: #f92772">@Time</span> Sep, 2015
     * <span style="color: #f92772">@Location</span> Carnegie Mellon University
     **/</span>    
-    <span style="color: #f92772">class</span> {
-        <span style="color: #66d9ef">String</i></span> searching Directory <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>(<span style="color: #fff799">"Built a database with 
+    <span style="color: #f92772">public class</span> searchingDirectory {
+        <span style="color: #66d9ef">String</i></span> searchingDirectory <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>(<span style="color: #fff799">"Built a database with 
         GUI in Java supporting data import from input files, data management 
         and searching."</span>);
     }
     
    <span style="color: #75715d">/**
-    * <span style="color: #f92772">@Projects5</span> Whack-a-mole Game.
+    * Whack-a-mole Game
     * <span style="color: #f92772">@Time</span> OCt, 2015
     * <span style="color: #f92772">@Location</span> Carnegie Mellon University
     **/</span>    
-    <span style="color: #f92772">class</span> {
+    <span style="color: #f92772">public class</span> whackMoleGame {
         <span style="color: #66d9ef">String</i></span> whackMoleGame <span style="color: #f92772">= new</span> <i><span style="color: #66d9ef">String</i></span>(<span style="color: #fff799">"Built build a Whack-a-mole game 
         using Java Swing GUI."</span>);
     }
 }
 	      </div>
-<a href="project.html" style="text-decoration: underline">See more about my projects</a>
+<a href="project.html" style="text-decoration: underline">// See more about my projects</a>
 	  </pre>
 	  <footer>
 
@@ -184,4 +165,4 @@
      <p>&copy;This website is designed and developed by Holly (Xinran) Li. All rights reserved.</p><p>Pittsburgh, PA 15217</p>
 </footer>
 </body>
-</hteml>
+</html>
